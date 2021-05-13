@@ -2,7 +2,6 @@ import React from 'react'
 import './Dashboard.css'
 import Saly from './Saly.svg'
 import Text from './Text.svg'
-import smalltext from './SmallText.svg'
 import { makeStyles } from '@material-ui/core/styles';
 import Third from './Third.svg';
 import Grid from '@material-ui/core/Grid';

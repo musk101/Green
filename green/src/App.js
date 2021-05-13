@@ -1,10 +1,13 @@
 import './App.css';
 import Dashboard from './Dashboard';
+import Footer from './Footer';
 import Testimony from './Testimony';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
     <div className="App">
+        <ScrollToTop smooth color="#34c25E" />
      <header class="header">
 		<h1 class="logo">
       <a href="#">Flexbox</a>
@@ -18,6 +21,7 @@ function App() {
 	</header> 
      <Dashboard/>
      <Testimony/>
+     <Footer/>
     </div>
   );
 }
