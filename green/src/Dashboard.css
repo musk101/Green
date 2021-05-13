@@ -3,3 +3,33 @@
     object-fit: contain;
     width: 100%;
 }
+.check
+{
+    height: 2000px;
+    background-color: red;
+}
+.saly
+{
+width:70%;
+padding-top: 3rem;
+}
+.text
+{
+    width: 50%;
+    padding-top: 8rem;
+}
+.second
+{
+    width:70%;
+    padding-top:9rem;
+}
+.Third
+{
+    width:70%;
+    padding-top:9rem;
+}
+.fourth
+{
+    width:70%;
+    padding-top:9rem;
+}
