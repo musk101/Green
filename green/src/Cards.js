@@ -8,12 +8,16 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 200
+    minWidth: 299,
+    minHeight:299,
+    borderRadius: 20,
+    boxShadow: '0 3px 5px 2px rgba(241,236,236, 100)',
   },
   bullet: {
     display: "inline-block",
     margin: "0 2px",
-    transform: "scale(0.8)"
+    transform: "scale(0.8)",
+
   },
   title: {
     fontSize: 14
@@ -28,7 +32,7 @@ export default function OutlinedCard() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Card className={classes.root} variant="outlined">
+    <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD"}}>
       <CardContent>
         <Typography
           className={classes.title}
