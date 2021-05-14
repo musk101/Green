@@ -32,7 +32,7 @@ export default function OutlinedCard() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD"}}>
+    <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "4rem"}}>
       <CardContent>
         <Typography
           className={classes.title}

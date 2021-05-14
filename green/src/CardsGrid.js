@@ -16,19 +16,23 @@ export default function CardsGrid() {
     return (
       <Grid
         container
-        spacing={4}
+        spacing={2}
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={12} sm={6} md={4} >
+        <Grid item xs={12} sm={6} md={3} >
           <Cards />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
           <Cards/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
           <Cards />
         </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <Cards />
+        </Grid>
+        
       </Grid>
     );
   }
