@@ -3,6 +3,7 @@ import Dashboard from './Dashboard';
 import Footer from './Footer';
 import Testimony from './Testimony';
 import ScrollToTop from "react-scroll-to-top";
+import CardsGrid from './CardsGrid';
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
 	</header> 
      <Dashboard/>
      <Testimony/>
+     
+     <CardsGrid/>
+
+
+
      <Footer/>
     </div>
   );

@@ -22,8 +22,8 @@ function Dashboard() {
     const classes = useStyles();
     return (
         <div>
-      <Grid container >
-        <Grid item xs={12} sm={6} md={6} >
+      
+        <Grid item xs={12} sm={6} md={6} ><Grid container >
           <img className="saly" src={Saly} alt=""/>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
