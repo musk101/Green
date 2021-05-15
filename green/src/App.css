@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:#F1ECEC;
 }
 
 .App-logo {
@@ -36,9 +37,6 @@
     transform: rotate(360deg);
   }
 }
-
-
-
 * {
 	box-sizing: border-box;
 }
@@ -65,12 +63,13 @@ a {
 	text-decoration: none;
 }
 .logo {
-	margin: 0;
+	margin-left: 1rem;
 	font-size: 1.45em;
 }
 
 .main-nav {
-	margin-top: 5px;
+	margin-top: none;
+	margin-left: 0.5vw;
 
 }
 .logo a,
@@ -129,6 +128,9 @@ a {
 	}
 
 }
-
-
-
+.lets_talk
+{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: rgba(255,89,117,1);
+}

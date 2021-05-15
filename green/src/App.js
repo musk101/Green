@@ -19,7 +19,7 @@ function App() {
           <li><a href="#">Work</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Let's Talk</a></li>
+          <li><a href="#" className="lets_talk">Let's Talk</a></li>
       </ul>
 	</header> 
      <Dashboard/>

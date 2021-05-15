@@ -33,7 +33,7 @@ export default function OutlinedCard() {
 
   return (
     <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "4rem"}}>
-      <CardContent>
+      {/* <CardContent>
         <Typography
           className={classes.title}
           color="textSecondary"
@@ -52,9 +52,9 @@ export default function OutlinedCard() {
           <br />
           {'"a benevolent smile"'}
         </Typography>
-      </CardContent>
+      </CardContent> */}
       <CardActions>
-        <Button size="small">Learn More</Button>
+        {/* <Button size="small">Learn More</Button> */}
       </CardActions>
     </Card>
   );
