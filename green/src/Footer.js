@@ -42,8 +42,10 @@ function Footer() {
 
               <i class='fab fa-typo3' />
             </Link>
-          </div>
+          </div >
+          <div style={{backgroundColor:"red"}}>
           <small class='website-rights'>MADE WITH 🧡 IN India</small>
+          </div>
         </div>
       </section>
     </div>

@@ -4,26 +4,27 @@ import { Carousel } from 'react-responsive-carousel';
 import Client from './Client.svg'
 import Slider from 'infinite-react-carousel';
 import Grid from '@material-ui/core/Grid'
+import './Testimony.css';
 
 function Testimony() {
     return (
         <Slider dots>
     <Grid container style={{backgroundColor:"red"}}>
-        <Grid item xs={12} sm={6} md={6} >
-          <img className="img-responsive" src={Client} alt=""/>
-          tst
+        <Grid item xs={12} sm={12} md={12} >
+          <img className="imaj" src={Client} alt=""/>
+          test
         </Grid>
         </Grid>
         <Grid container style={{backgroundColor:"red"}}>
-        <Grid item xs={6} sm={6} md={6} >
-          {/* <img className="first_comment" src={Client} alt=""/> */}
-          tst
+        <Grid item xs={12} sm={12} md={12} >
+          <img className="imaj" src={Client} alt=""/>
+          test
         </Grid>
         </Grid>
         <Grid container style={{backgroundColor:"red"}}>
-        <Grid item xs={12} sm={6} md={6} >
-          {/* <img className="first_comment" src={Client} alt=""/> */}
-          tst
+        <Grid item xs={12} sm={12} md={12} >
+          <img className="imaj" src={Client} alt=""/>
+          test
         </Grid>
         </Grid>
   </Slider>
