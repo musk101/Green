@@ -1,7 +1,7 @@
 import React from 'react'
 import './Dashboard.css'
-import Saly from './Saly.svg'
-import Text from './Text.svg'
+import Nib from './Nib.svg'
+import DesignText from './DesignText.svg'
 import { makeStyles } from '@material-ui/core/styles';
 import Third from './Third.svg';
 import Grid from '@material-ui/core/Grid';
@@ -24,11 +24,11 @@ function Dashboard() {
         <div>
       <Grid container>
         <Grid item xs={12} sm={6} md={6} >
-          <img className="saly" src={Saly} alt=""/>
+          <img className="saly" src={Nib} alt=""/>
         </Grid>
         
         <Grid item xs={12} sm={6} md={6}>
-          <img className="text" src={Text} alt=""/>
+          <img className="text" src={DesignText} alt=""/>
         </Grid>
         </Grid>
         <Grid container >
@@ -36,17 +36,6 @@ function Dashboard() {
           <img className="second" src={SecondDashboard} alt=""/>
         </Grid>
         </Grid>
-        <Grid container >
-        <Grid item xs={12} sm={12} md={12} >
-          <img className="Third" src={Third} alt=""/>
-        </Grid>
-        </Grid>
-        <Grid container >
-        <Grid item xs={12} sm={12} md={12} >
-          <img className="fourth" src={Fourth} alt=""/>
-        </Grid>
-        </Grid>
-  
        </div>
     )
 }

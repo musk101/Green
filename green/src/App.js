@@ -1,10 +1,8 @@
 import './App.css';
-import Dashboard from './Dashboard';
-import Footer from './Footer';
-import Testimony from './Testimony';
 import ScrollToTop from "react-scroll-to-top";
-import CardsGrid from './CardsGrid';
-import CardHeading from './CardHeading';
+import Page1 from "./Page1";
+import Page2 from "./Page2";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './Logo.svg';
 
 function App() {
@@ -21,13 +19,15 @@ function App() {
           <li><a href="#">About</a></li>
           <li><a href="#" className="lets_talk">Let's Talk</a></li>
       </ul>
-	</header> 
-     <Dashboard/>
-     <Testimony/>
-     <CardHeading/>
-     <CardsGrid/>
-     <Footer/>
-    </div>
+	</header>
+  <Router>
+  <Switch>
+              <Route exact path='/' component={Page1} />
+              <Route exact path='/design' component={Page2} />
+     </Switch>
+
+    </Router>
+  </div>
   );
 }
 
