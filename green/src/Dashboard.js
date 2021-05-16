@@ -1,12 +1,7 @@
 import React from 'react'
 import './Dashboard.css'
-import Saly from './Saly.svg'
-import Text from './Text.svg'
 import { makeStyles } from '@material-ui/core/styles';
-import Third from './Third.svg';
 import Grid from '@material-ui/core/Grid';
-import Fourth from './Fourth.svg';
-import SecondDashboard from './SecondDashboard.svg';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -18,31 +13,37 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-function Dashboard() {
+function Dashboard(props) {
+  const dashimage=props.dashimage;
+  const dashimage2=props.dashimage2;
+  const seconddashimage=props.seconddashimage;
+  const thirddashimage=props.thirddashimage;
+  const fourthdashimage=props.fourthdashimage;
+
     const classes = useStyles();
     return (
         <div>
       <Grid container>
         <Grid item xs={12} sm={6} md={6} >
-          <img className="saly" src={Saly} alt=""/>
+          <img className="saly" src={dashimage} alt=""/>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
-          <img className="text" src={Text} alt=""/>
+          <img className="text" src={dashimage2} alt=""/>
         </Grid>
         </Grid>
         <Grid container >
         <Grid item xs={12} sm={12} md={12} >
-          <img className="second" src={SecondDashboard} alt=""/>
+          <img className="second" src={seconddashimage} alt=""/>
         </Grid>
         </Grid>
         <Grid container >
         <Grid item xs={12} sm={12} md={12} >
-          <img className="Third" src={Third} alt=""/>
+          <img className="Third" src={thirddashimage} alt=""/>
         </Grid>
         </Grid>
         <Grid container >
         <Grid item xs={12} sm={12} md={12} >
-          <img className="fourth" src={Fourth} alt=""/>
+          <img className="fourth" src={fourthdashimage} alt=""/>
         </Grid>
         </Grid>
   
