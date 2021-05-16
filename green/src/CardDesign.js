@@ -6,12 +6,6 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import logo from './Logo.svg'
-import xd from './adobe-xd 1.svg';
-import figma from './figma-1 1.svg';
-import ai from './illustrator.svg';
-import id from './indesign.svg';
-import ae from './ae.svg';
-import photoshop from './Photoshop.svg';
 
 
 const useStyles = makeStyles({
@@ -32,12 +26,13 @@ const useStyles = makeStyles({
   }
 });
 
-export default function OutlinedCard() {
+export default function OutlinedCard(props) {
+  const image = props.src;
   const classes = useStyles();
   return (
     <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "1rem"}}>
       <CardContent>
-         <img src={xd} alt=""/>
+         <img src={image} alt="" height="197px" width="203px"/>
       </CardContent>
 
     </Card>

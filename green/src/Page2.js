@@ -3,6 +3,7 @@ import Footer from './Footer';
 import DashboardDesign from './DashboardDesign';
 import CardDesignGrid from './CardDesignGrid';
 import CardDesignHeading from './CardDesignHeading';
+import DesignPlant from './DesignPlant';
 
 function Page2() {
     return (
@@ -10,6 +11,7 @@ function Page2() {
             <DashboardDesign/>
             <CardDesignHeading/>
             <CardDesignGrid/>
+            <DesignPlant/>
             <Footer/>
         </div>
     )

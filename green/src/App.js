@@ -2,6 +2,7 @@ import './App.css';
 import ScrollToTop from "react-scroll-to-top";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
+import Page3 from "./Page3";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './Logo.svg';
 
@@ -24,6 +25,7 @@ function App() {
   <Switch>
               <Route exact path='/' component={Page1} />
               <Route exact path='/design' component={Page2} />
+              <Route exact path='/develop' component={Page3} />
      </Switch>
 
     </Router>
