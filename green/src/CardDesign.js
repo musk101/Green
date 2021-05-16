@@ -27,9 +27,6 @@ const useStyles = makeStyles({
     transform: "scale(0.8)",
 
   },
-  title: {
-    fontSize: 14
-  },
   pos: {
     marginBottom: 12
   }
@@ -37,21 +34,12 @@ const useStyles = makeStyles({
 
 export default function OutlinedCard() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
-
   return (
-    <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "4rem"}}>
+    <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "1rem"}}>
       <CardContent>
-        <Typography
-          className={classes.title}
-          color="textSecondary"
-          gutterBottom
-        >
-         {/* <img src={} alt=""/> */}
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-        </Typography>
+         <img src={xd} alt=""/>
       </CardContent>
+
     </Card>
   );
 }
