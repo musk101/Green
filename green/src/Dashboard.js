@@ -1,5 +1,4 @@
 import React from 'react'
-import './Dashboard.css'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
@@ -31,13 +30,16 @@ function Dashboard(props) {
           <img className="text" src={dashimage2} alt=""/>
         </Grid>
         </Grid>
-      { props.display?
+        { props.seconddashimage?
        <><Grid container >
         <Grid item xs={12} sm={12} md={12} >
           <img className="second" src={seconddashimage} alt=""/>
         </Grid>
         </Grid>
-        <Grid container >
+        </> :null
+}
+        { props.display?
+         <> <Grid container >
         <Grid item xs={12} sm={12} md={12} >
           <img className="Third" src={thirddashimage} alt=""/>
         </Grid>

@@ -1,8 +1,9 @@
 import React from "react";
-import "./Cards.css";
-import Cards from "./Cards";
+import "./CardDesign.css";
+import CardDesign from "./CardDesign";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -20,20 +21,15 @@ export default function CardsGrid() {
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={12} sm={6} md={3} >
-          <Cards />
+        <Grid item xs={12} sm={6} md={4} >
+          <CardDesign src={""} alt="1"/>
         </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Cards/>
+        <Grid item xs={12} sm={6} md={4}>
+        <CardDesign src={""}  alt="1"/>
         </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Cards />
+        <Grid item xs={12} sm={6} md={4}>
+        <CardDesign src={""}  alt="1"/>
         </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Cards />
-        </Grid>
-        
       </Grid>
     );
   }
-  

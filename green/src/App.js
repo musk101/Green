@@ -5,7 +5,7 @@ import Page2 from "./Page2";
 import Page3 from "./Page3";
 import Page4 from "./Page4";
 import Form from "./Form";
-import About from "./Aboutus";
+import Aboutus from "./Aboutus";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './Logo.svg';
 
@@ -30,8 +30,8 @@ function App() {
               <Route exact path='/design' component={Page2} />
               <Route exact path='/develop' component={Page3} />
               <Route exact path='/market' component={Page4} />
+              <Route exact path='/about' component={Aboutus} />
               <Route exact path='/form' component={Form} />
-              <Route exact path='/about' component={About} />
 
      </Switch>
 
