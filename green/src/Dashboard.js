@@ -31,7 +31,8 @@ function Dashboard(props) {
           <img className="text" src={dashimage2} alt=""/>
         </Grid>
         </Grid>
-        <Grid container >
+      { props.display?
+       <><Grid container >
         <Grid item xs={12} sm={12} md={12} >
           <img className="second" src={seconddashimage} alt=""/>
         </Grid>
@@ -46,8 +47,9 @@ function Dashboard(props) {
           <img className="fourth" src={fourthdashimage} alt=""/>
         </Grid>
         </Grid>
-  
-       </div>
+        </> :null
+}
+</div>
     )
 }
 

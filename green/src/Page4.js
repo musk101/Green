@@ -2,16 +2,17 @@ import React from 'react'
 import markettext from './markettext.svg';
 import two from './two.svg';
 import CardDesignHeading from './CardDesignHeading';
-import CardDevelopGrid from './CardDevelopGrid';
+import CardMarketGrid from './CardMarketGrid';
 import Dreamtext from './Dreamtext';
 import Footer from './Footer';
 import Dashboard from './Dashboard';
 function Page4() {
     return (
         <div>
-            <Dashboard dashimage={two} dashimage2={markettext}/>
-             <Dreamtext text1="WEB DEVELOPMENT" text2="ANDROID APPLICATION" text3="WEB APPLICATION" text4="iOS APPLICATION" text5="MAINTAINANCE & TESTING" text6="UI DEVELOPMENT" text7="API INTEGRATION"/>
+            <Dashboard dashimage={two} dashimage2={markettext} display={false}/>
+             <Dreamtext text1="MARKETING" text2="CONTENT WRITING" text6="CONSULTING" text7="BRANDING"/>
              <CardDesignHeading/>
+             <CardMarketGrid/>
              <Footer/>
         </div>
     )

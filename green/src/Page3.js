@@ -14,7 +14,6 @@ function Page3() {
              <Dreamtext text1="WEB DEVELOPMENT" text2="ANDROID APPLICATION" text3="WEB APPLICATION" text4="iOS APPLICATION" text5="MAINTAINANCE & TESTING" text6="UI DEVELOPMENT" text7="API INTEGRATION"/>
              <CardDesignHeading/>
              <CardDevelopGrid/>
-            
              <Footer/>
         </div>
     )

@@ -13,7 +13,8 @@ import Third from './Third.svg';
 function Page1() {
     return (
         <div>
-            <Dashboard dashimage={Saly} dashimage2={Text} seconddashimage={SecondDashboard} thirddashimage={Third} fourthdashimage={Fourth}/>
+            <Dashboard dashimage={Saly} dashimage2={Text} seconddashimage={SecondDashboard} thirddashimage={Third} fourthdashimage={Fourth} display={true}/> 
+            {/* //display is to render props  */}
      <Testimony/>
      <CardHeading/>
      <CardsGrid/>
