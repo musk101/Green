@@ -70,11 +70,12 @@ a {
 .main-nav {
 	margin-top: none;
 	margin-left: 0.5vw;
+	margin-right: 5.0vw;
 
 }
 .logo a,
 .main-nav a {
-	padding: 10px 15px;
+	padding: 10px 30px;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
@@ -89,11 +90,11 @@ a {
 	color: #718daa;
 }
 .header {
-	padding-top: .2rem;
-	padding-bottom: .5em;
+	padding-top: .1rem;
+	padding-bottom: .1rem;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 1px;
 }
 
 

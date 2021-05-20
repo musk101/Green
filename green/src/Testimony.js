@@ -8,23 +8,23 @@ import './Testimony.css';
 
 function Testimony() {
     return (
-        <Slider dots>
-    <Grid container style={{backgroundColor:"red"}}>
+        <Slider dots color="red">
+    <Grid container style={{backgroundColor:"green"}}>
+        <Grid item xs={false} sm={12} md={12} >
+          <img className="imaj" src={Client} alt=""/>
+          {/* test */}
+        </Grid>
+        </Grid>
+        <Grid container style={{backgroundColor:"transparent"}}>
         <Grid item xs={12} sm={12} md={12} >
           <img className="imaj" src={Client} alt=""/>
-          test
+          {/* test */}
         </Grid>
         </Grid>
         <Grid container style={{backgroundColor:"red"}}>
         <Grid item xs={12} sm={12} md={12} >
           <img className="imaj" src={Client} alt=""/>
-          test
-        </Grid>
-        </Grid>
-        <Grid container style={{backgroundColor:"red"}}>
-        <Grid item xs={12} sm={12} md={12} >
-          <img className="imaj" src={Client} alt=""/>
-          test
+          {/* test */}
         </Grid>
         </Grid>
   </Slider>

@@ -5,6 +5,7 @@ import Page2 from "./Page2";
 import Page3 from "./Page3";
 import Page4 from "./Page4";
 import Form from "./Form";
+import nightday from "./nightday.svg";
 import Aboutus from "./Aboutus";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './Logo.svg';
@@ -21,6 +22,7 @@ function App() {
           <li><a href="#">Work</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">About</a></li>
+          <li><img src={nightday}/></li>
           <li><a href="#" className="lets_talk">Let's Talk</a></li>
       </ul>
 	</header>

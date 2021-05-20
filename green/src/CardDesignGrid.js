@@ -20,30 +20,39 @@ const useStyles = makeStyles({
 export default function CardsGrid() {
     const classes = useStyles();
     return (
+      <>
       <Grid
         container
-        spacing={2}
+        spacing={10}
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={12} sm={6} md={4} >
+        <Grid item xs={12} sm={6} md={3} >
           <CardDesign src={xd}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={figma}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={ai}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        </Grid>
+        <Grid
+        container
+        spacing={10}
+        className={classes.gridContainer}
+        justify="center"
+      >
+        <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={id}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={ae}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={ps}/>
         </Grid>
       </Grid>
+      </>   //react elements must be enclosed in a fragment hencce this
     );
   }

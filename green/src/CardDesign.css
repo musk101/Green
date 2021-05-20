@@ -5,3 +5,8 @@
   margin-top:2rem;
   margin-bottom: 2rem;
 }
+img.ok
+{
+z-index: 999999 !important;
+opacity: 1;
+}

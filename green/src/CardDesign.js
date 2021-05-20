@@ -2,24 +2,25 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-
+import './CardDesign.css';
+import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 299,
-    minHeight:299,
+    Width: 210,
+    maxHeight:264,
     borderRadius: 20,
     boxShadow: '3px 3px 5px 2px rgba(0,0,0,0.2)',
-    opacity: 0.7,
+    // opacity: "0.9",
+
   },
   bullet: {
     display: "inline-block",
     margin: "0 2px",
     transform: "scale(0.8)",
-
   },
   pos: {
-    marginBottom: 12
+    marginBottom: 30
   }
 });
 
@@ -29,8 +30,8 @@ export default function OutlinedCard(props) {
   return (
     <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "1rem"}}>
       <CardContent>
-         <img src={image} alt="" height="197px" width="203px"/></CardContent>
-
+         <img src={image}  className="ok" alt="" height="160px" width="160px"/>
+         </CardContent>
     </Card>
   );
 }
