@@ -15,47 +15,63 @@ import hubspot from './hubspot.svg';
 
 const useStyles = makeStyles({
   gridContainer: {
-    paddingLeft: "40px",
-    paddingRight: "40px",
+    paddingLeft: "20px",
+    paddingRight: "20px",
   }
 });
 
 export default function CardsGrid() {
     const classes = useStyles();
     return (
+      <>
       <Grid
         container
-        spacing={2}
+        spacing={10}
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={12} sm={6} md={4} >
+        <Grid item xs={9} sm={3} md={3} >
           <CardDesign src={googleanalytics}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={digitalmarket}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={loudspeaker}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        </Grid>
+         <Grid
+         container
+         spacing={10}
+         className={classes.gridContainer}
+         justify="center"
+       >
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={create}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={branddesign}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={googleads}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        </Grid>
+         <Grid
+         container
+         spacing={10}
+         className={classes.gridContainer}
+         justify="center"
+       >
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={designpost}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={clienttalk}/>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={9} sm={3} md={3}>
         <CardDesign src={hubspot}/>
         </Grid>
       </Grid>
+      </>
     );
   }

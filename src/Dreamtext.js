@@ -5,6 +5,7 @@ import './Dreamtext.css';
 function Dreamtext(props) {
     const text1=props.text1;
     const text2=props.text2;
+    const text22=props.text22;
     const text3=props.text3;
     const text4=props.text4;
     const text5=props.text5;
@@ -23,6 +24,7 @@ function Dreamtext(props) {
         <Grid item xs={12} sm={4} md={4} >
           <p className="text_help">{text1}</p>
           <p className="text_help">{text2}</p>
+          <p className="text_help">{text22}</p>
         </Grid>
         <Grid item xs={12} sm={4} md={4}>
         <p className="text_help">{text3}</p>

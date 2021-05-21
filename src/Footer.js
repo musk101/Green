@@ -29,9 +29,9 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>SERVICES</h2>
-            <Link to='/'>DESIGN</Link>
-            <Link to='/'>DEVELOP</Link>
-            <Link to='/'>BUSINESS</Link>
+            <Link to='/design'>DESIGN</Link>
+            <Link to='/develop'>DEVELOP</Link>
+            <Link to='/market'>BUSINESS</Link>
           </div>
         </div>
       </div>

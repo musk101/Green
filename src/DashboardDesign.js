@@ -31,11 +31,6 @@ function Dashboard() {
           <img className="text" src={DesignText} alt=""/>
         </Grid>
         </Grid>
-        <Grid container >
-        <Grid item xs={12} sm={12} md={12} >
-          <img className="second" src={SecondDashboard} alt=""/>
-        </Grid>
-        </Grid>
        </div>
     )
 }
