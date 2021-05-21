@@ -56,7 +56,7 @@ ul {
 h2,
 h3,
 a {
-	color: #34495e;
+	color: #363636;
 }
 
 a {
@@ -82,7 +82,7 @@ a {
 }
 
 .main-nav a {
-	color: #34495e;
+	color: #363636;
 	font-size: .99em;
 }
 
@@ -134,4 +134,8 @@ a {
 	border-style: solid;
 	border-radius: 10px;
 	border-color: rgba(255,89,117,1);
+
 }
+.lets_talk:hover {
+	background-color: #FF5975;
+  }
