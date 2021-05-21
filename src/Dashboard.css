@@ -1,0 +1,51 @@
+.first_image
+{
+    object-fit: contain;
+    width: 100%;
+}
+.check
+{
+    height: 2000px;
+    background-color: red;
+}
+.saly
+{
+width:70%;
+padding-top: 3rem;
+}
+.text
+{
+    width: 50%;
+    padding-top: 8rem;
+}
+.second
+{
+    width: 90%;
+    padding-top:7rem;
+}
+.Third
+{
+    width: 90%;
+    padding-top:7rem;
+}
+.fourth
+{ width: 90%;
+    padding-top:7rem;
+}
+.saly:hover {
+    transform: scale(0.7);
+    transition-duration: 0.9s;
+}
+.second:hover {
+    transform: scale(0.7);
+    transition-duration: 0.9s;
+}
+.Third:hover {
+    transform: scale(0.7);
+    transition-duration: 0.9s;
+}
+.fourth:hover {
+    transform: scale(0.7);
+    transition-duration: 0.9s;
+}
+
