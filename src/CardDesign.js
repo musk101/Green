@@ -30,7 +30,7 @@ export default function OutlinedCard(props) {
   return (
     <Card className={classes.root} variant="outlined" style={{backgroundColor: "#EAF5DD" , marginBottom: "1rem"}}>
       <CardContent>
-         <img src={image}  className="ok" alt="" height="160px" width="160px"/>
+         <img src={image}  className="ok" alt="" height="140px" width="140px"/>
          </CardContent>
     </Card>
   );
