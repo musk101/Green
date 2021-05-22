@@ -1,6 +1,7 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import helpyou from './helpyou.svg'
+import { Link } from 'react-router-dom';
 import './Dreamtext.css';
 function Dreamtext(props) {
     const text1=props.text1;
@@ -22,7 +23,7 @@ function Dreamtext(props) {
         </Grid>
             <Grid container>
         <Grid item xs={12} sm={4} md={4} >
-          <p className="text_help">{text1}</p>
+        <Link to='/tik' className="text_help">{text1}</Link>
           <p className="text_help">{text2}</p>
           <p className="text_help">{text22}</p>
         </Grid>
