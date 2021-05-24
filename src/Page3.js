@@ -11,7 +11,7 @@ function Page3() {
     return (
         <div>
               <Dashboard dashimage={pc} dashimage2={developtext}/>
-             <Dreamtext text1="WEB DEVELOPMENT" text2="ANDROID APPLICATION" text3="WEB APPLICATION" text4="iOS APPLICATION" text5="MAINTAINANCE & TESTING" text6="UI DEVELOPMENT" text7="API INTEGRATION"/>
+             <Dreamtext text1link="/webdev" text2link="/androidapp" text3link="/webapp" text4link="/iosapp" text5link="/maintainandtest" text6link="/uidev" text7link="/api" text1="WEB DEVELOPMENT" text2="ANDROID APPLICATION" text3="WEB APPLICATION" text4="iOS APPLICATION" text5="MAINTAINANCE & TESTING" text6="UI DEVELOPMENT" text7="API INTEGRATION"/>
              <CardDesignHeading/>
              <CardDevelopGrid/>
              <Footer/>
