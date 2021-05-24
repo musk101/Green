@@ -10,7 +10,7 @@ function Page4() {
     return (
         <div>
             <Dashboard dashimage={two} dashimage2={markettext} display={false}/>
-             <Dreamtext text1="MARKETING" text2="CONTENT WRITING" text6="CONSULTING" text7="BRANDING"/>
+             <Dreamtext  text1link="/digital" text2link="/content" text6link="/consulting" text7link="/branding" text1="MARKETING" text2="CONTENT WRITING" text6="CONSULTING" text7="BRANDING"/>
              <CardDesignHeading/>
              <CardMarketGrid/>
              <Footer/>
