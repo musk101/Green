@@ -21,3 +21,8 @@
    text-align: left;
    margin-bottom: 20vw;
 }
+@media all and (min-width: 767px) {
+  .linkphototest { 
+    display: none;
+  }
+}
