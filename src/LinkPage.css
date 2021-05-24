@@ -5,7 +5,7 @@
 {
     font-weight: 600;
     font-family: 'Blinker', sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
    margin-left: 9vw;
    margin-bottom: 20vw;
    text-align: left;
@@ -17,6 +17,7 @@
     font-size: 2vw;
    margin-left: 9vw;
    margin-left: 7vw;
+ align-items: center;
    text-align: left;
    margin-bottom: 20vw;
 }

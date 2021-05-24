@@ -53,7 +53,7 @@ function LinkPage(props) {
        >
       </Grid>
       </>
-      <Dreamtext text1link="/ui" text2link="/ux" text3link="/mockupdesign" text4link="/graphicdesign" text5link="/mockupdesign" text6link="/logodesign" text7link="/content" text8link="/animations"  tex1="UI DESIGN" text2="UX DESIGN" text3="GRAPHICS DESIGN" text4="MATERIAL DESIGN" text5="LOGO DESIGN" text6="SOCIAL MEDIA CONTENTS" text7="ANIMATIONS" text22="MOCKUP DESIGN"/>
+      <Dreamtext tex1="WEB DEVELOPMENT" text2="ANDROID APPLICATION" text3="WEB APPLICATION" text4="iOS APPLICATION" text5="MAINTAINANCE & TESTING" text6="UI DEVELOPMENT" text7="API  INTEGRATION" />
         <Footer/>
         </>
         </div>
