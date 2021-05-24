@@ -14,12 +14,13 @@ function Dreamtext(props) {
     const text7=props.text7;
     const text1link=props.text1link;
     const text2link=props.text2link;
+    const text22link=props.text22link;
     const text3link=props.text3link;
     const text4link=props.text4link;
     const text5link=props.text5link;
     const text6link=props.text6link;
     const text7link=props.text7link;
-    const text8link=props.text8link;
+   
     return (
         <div>
             <Grid container>
@@ -33,16 +34,16 @@ function Dreamtext(props) {
         <Grid item xs={12} sm={4} md={4} >
         <Link to={text1link} className="text_help">{text1}</Link>
           <Link to={text2link} className="text_help">{text2}</Link>
-          <Link to={text3link} className="text_help">{text22}</Link>
+          <Link to={text22link} className="text_help">{text22}</Link>
         </Grid>
         <Grid item xs={12} sm={4} md={4}>
-        <Link to={text4link} className="text_help">{text3}</Link>
-        <Link to={text5link} className="text_help">{text4}</Link>
-        <Link to={text6link} className="text_help">{text5}</Link>
+        <Link to={text3link} className="text_help">{text3}</Link>
+        <Link to={text4link} className="text_help">{text4}</Link>
+        <Link to={text5link} className="text_help">{text5}</Link>
         </Grid>
         <Grid item xs={12} sm={4} md={4}>
-        <Link to={text7link} className="text_help">{text6}</Link>
-        <Link to={text8link} className="text_help">{text7}</Link>
+        <Link to={text6link} className="text_help">{text6}</Link>
+        <Link to={text7link} className="text_help">{text7}</Link>
         </Grid>
         </Grid>
         </div>
