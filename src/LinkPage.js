@@ -26,7 +26,7 @@ function LinkPage(props) {
         container
         spacing={2}
         className={classes.gridContainer}
-      
+
       >
         <Grid item xs={9} sm={7} md={6}>
           <p className="op">{props.linktext}</p>

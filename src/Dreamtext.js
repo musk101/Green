@@ -32,18 +32,18 @@ function Dreamtext(props) {
         </Grid>
             <Grid container>
         <Grid item xs={12} sm={4} md={4} >
-        <Link to={text1link} className="text_help">{text1}</Link>
-          <Link to={text2link} className="text_help">{text2}</Link>
-          <Link to={text22link} className="text_help">{text22}</Link>
+        <div><Link to={text1link} className="text_help">{text1}</Link></div>
+        <div> <Link to={text2link} className="text_help">{text2}</Link></div>
+        <div> <Link to={text22link} className="text_help">{text22}</Link></div>
         </Grid>
         <Grid item xs={12} sm={4} md={4}>
-        <Link to={text3link} className="text_help">{text3}</Link>
-        <Link to={text4link} className="text_help">{text4}</Link>
-        <Link to={text5link} className="text_help">{text5}</Link>
+        <div><Link to={text3link} className="text_help">{text3}</Link></div>
+        <div><Link to={text4link} className="text_help">{text4}</Link></div>
+        <div><Link to={text5link} className="text_help">{text5}</Link></div>
         </Grid>
         <Grid item xs={12} sm={4} md={4}>
-        <Link to={text6link} className="text_help">{text6}</Link>
-        <Link to={text7link} className="text_help">{text7}</Link>
+        <div><Link to={text6link} className="text_help">{text6}</Link></div>
+        <div><Link to={text7link} className="text_help">{text7}</Link></div>
         </Grid>
         </Grid>
         </div>
