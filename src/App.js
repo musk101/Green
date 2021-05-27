@@ -12,6 +12,7 @@ import nightday from "./nightday.svg";
 import Aboutus from "./Aboutus";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './Logo.svg';
+import Work from './Work';
 
 function App() {
   return (
@@ -69,7 +70,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
 <Route exact path='/consulting' component={(props) => <LinkPage linktext="engaged in the business of giving expert advice to people working in a professional or technical field."  linkphoto={niblink} secondlinktext="In a nutshell, consultants provide expert opinions, analysis, and recommendations to organizations or individuals, based on their own expertise. They're essentially fixers, serving as objective troubleshooters, and providing strategies to prevent problems and improve performance." {...props} />} />
 
 <Route exact path='/branding' component={(props) => <LinkPage linktext="Branding is endowing products and services with the power of a brand."  linkphoto={niblink} secondlinktext="The practice of creating a name, symbol or design that identifies and differentiates a product from other products. An effective brand strategy gives you a major edge in increasingly competitive markets."{...props} />} />
-
+<Route exact path='/work' component={Work} />
      </Switch>
     </Router>
   </div>

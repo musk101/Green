@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
+
+.rr
+{
+    text-align: left;
+    padding-left: 6vw;
+    font-weight: 600;
+    font-family: 'Blinker', sans-serif;
+    font-size: 6vh;
+}
+.rrd
+{
+    color: #FF5975;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 6vw;
+    font-size: 4vh;
+}
+.work_img
+{
+height: 90%;
+width: 90%;
+justify-content:center;
+padding-top: 6%;
+}
+@media all and (max-width: 770px) {
+    .workLaptopView { 
+      display: none !important;
+    }
+    .testimony1
+    {
+        display: none !important;
+    }
+  }
+  @media all and (min-width: 770px) {
+    .worksmall { 
+      display: none !important;
+    }
+    .testimony2
+    {
+        display: none !important;
+    }
+  }
+  .worksmall 
+  {
+      justify-content:center;
+  }

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap');
+
+#cardss
+{
+   font-family: 'Blinker';
+    background-color:#ff5975;
+    color:"white";
+}
+.font
+{ font-family: 'Blinker', sans-serif !important;
+    font-weight: 400 !important;
+}

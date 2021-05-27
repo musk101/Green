@@ -1,0 +1,86 @@
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
+import './Work.css';
+import WorkSmall from './WorkSmall';
+import Work1 from './Work1.svg';
+import Work2 from './Work2.svg';
+import Work3 from './Work3.svg';
+import Testimony from './Testimony';
+import WorkSmall1 from './WorkSmall1.svg';
+import WorkSmall2 from './WorkSmall2.svg';
+import WorkSmall3 from './WorkSmall3.svg';
+import Client from './Client.svg'
+import testimonysmall from './testimonySmall.svg';
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: 'left',
+      color: theme.palette.text.secondary,
+    },
+  }));
+function Work() {
+    const classes = useStyles();
+    return (
+        <div>
+            <Grid container className="worksmall" spacing={3}>
+            <Grid item md={12} className="rrd">
+            <WorkSmall worksmallimage={WorkSmall1}/>
+            </Grid>
+            <Grid item md={12} className="rrd">
+            <WorkSmall worksmallimage={WorkSmall2}/>
+            </Grid>
+            <Grid item md={12} className="rrd">
+            <WorkSmall worksmallimage={WorkSmall3}/>
+
+            </Grid>
+            </Grid>
+            <Grid container>
+        <Grid item md={12} className="rrd">
+          <h>WORK</h>
+        </Grid>
+        </Grid>
+            <Grid container>
+        <Grid item md={12} className="rr">
+          <h>IDEAS GETTING REAL</h>
+        </Grid>
+        </Grid>
+        <Grid container>
+        <Grid item  md={12}  className="rr">
+          <h>WE PROVIDE THE WINGS YOUR BUSINESS NEEDS.</h>
+        </Grid>
+        </Grid>
+        <Grid container className="workLaptopView">
+        <Grid item  md={12} >
+          <img src={Work1} alt="" className="work_img"/>
+        </Grid>
+        </Grid>
+        <Grid container  className="workLaptopView">
+        <Grid item  md={12}>
+        <img src={Work2} alt="" className="work_img"/>
+        </Grid>
+        </Grid>
+        <Grid container className="workLaptopView">
+        <Grid item  md={12}>
+        <img src={Work3} alt="" className="work_img"/>
+        </Grid>
+        </Grid>
+        <Grid container className="testimony1">
+        <Grid item md={12}>
+        <Testimony Clientimage={Client}/>
+        </Grid>
+        </Grid>
+        <Grid container className="testimony2">
+        <Grid item  xs={12}  md={12}>
+        <Testimony Clientimage={testimonysmall}/>
+        </Grid>
+        </Grid>
+        </div>
+    )
+}
+
+export default Work;
