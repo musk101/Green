@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
-import helpyou from './helpyou.svg'
+// import helpyou from './helpyou.svg'
 import { Link } from 'react-router-dom';
 import './Dreamtext.css';
 function Dreamtext(props) {
@@ -23,25 +23,29 @@ function Dreamtext(props) {
    
     return (
         <div>
-            <Grid container>
-        <Grid item xs={10} sm={11} md={11} >
-            <div>
-        <img src={helpyou} alt="" height="302px" width="900px" className="help"/>
-        </div>
+           <Grid container>
+        <Grid item md={12} xs={12}  className="rrd">
+          <h>WHAT WE SERVE?</h>
         </Grid>
         </Grid>
             <Grid container>
+        <Grid item md={12}  xs={12} className="rr">
+          <h>We help you to turn
+your ideas into your dream design.</h>
+        </Grid>
+        </Grid>
+            <Grid container >
         <Grid item xs={12} sm={4} md={4} >
         <div><Link to={text1link} className="text_help">{text1}</Link></div>
         <div> <Link to={text2link} className="text_help">{text2}</Link></div>
         <div> <Link to={text22link} className="text_help">{text22}</Link></div>
         </Grid>
-        <Grid item xs={12} sm={4} md={4}>
+        <Grid item xs={12} sm={4} md={4} >
         <div><Link to={text3link} className="text_help">{text3}</Link></div>
         <div><Link to={text4link} className="text_help">{text4}</Link></div>
         <div><Link to={text5link} className="text_help">{text5}</Link></div>
         </Grid>
-        <Grid item xs={12} sm={4} md={4}>
+        <Grid item xs={12} sm={4} md={4} >
         <div><Link to={text6link} className="text_help">{text6}</Link></div>
         <div><Link to={text7link} className="text_help">{text7}</Link></div>
         </Grid>

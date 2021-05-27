@@ -4,7 +4,7 @@
 
 .help
 {
-    width:70%;
+    width:100vw;
     object-fit: contain;
 }
 .text_help
@@ -12,4 +12,10 @@
     font-weight: 600;
     font-family: 'Blinker', sans-serif;
     font-size: 23px;
+}
+@media all and (max-width: 770px) {
+    .text_help {
+     align-items:left;
+      border-bottom: 3px dotted;
+    }
 }

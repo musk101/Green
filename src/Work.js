@@ -40,17 +40,17 @@ function Work() {
             </Grid>
             </Grid>
             <Grid container>
-        <Grid item md={12} className="rrd">
+        <Grid item md={12} xs={12}  className="rrd">
           <h>WORK</h>
         </Grid>
         </Grid>
             <Grid container>
-        <Grid item md={12} className="rr">
+        <Grid item md={12}  xs={12} className="rr">
           <h>IDEAS GETTING REAL</h>
         </Grid>
         </Grid>
         <Grid container>
-        <Grid item  md={12}  className="rr">
+        <Grid item  md={12}  xs={12} className="rr">
           <h>WE PROVIDE THE WINGS YOUR BUSINESS NEEDS.</h>
         </Grid>
         </Grid>
