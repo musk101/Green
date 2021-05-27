@@ -23,7 +23,7 @@ function App() {
       <a href="#"><img src={Logo} alt=""/></a>
       </h1>
       <ul class="main-nav">
-          <li><a href="#">Work</a></li>
+          <li><a href="/work">Work</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">About</a></li>
           <li><img src={nightday}/></li>
