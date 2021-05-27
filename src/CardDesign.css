@@ -10,3 +10,9 @@ img.ok
 z-index: 999999 !important;
 opacity: 1;
 }
+
+@media all and (max-width: 770px) {
+  #tst {
+    display: none !important;
+  }
+}

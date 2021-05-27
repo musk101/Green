@@ -19,23 +19,16 @@ const useStyles = makeStyles((theme) => ({
     height: 0,
     paddingTop: '56.25%', // 16:9
   },
-  expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
   expandOpen: {
     transform: 'rotate(180deg)',
   },
-  avatar: {
-    backgroundColor: red[500],
-  },
+
 }));
 
 export default function WorkSmall(props) {
   const worksmallimage=props.worksmallimage;
+  const worksmalltext=props.worksmalltext;
+  const cardcolor=props.cardcolor;
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -45,7 +38,7 @@ export default function WorkSmall(props) {
 
   return (
   
-    <Card className={classes.root} id="cardss">
+    <Card className={classes.root} id="cardss" style={{backgroundColor:cardcolor}}>
       <CardHeader classes={{
           title: classes.root,
         }} 
@@ -62,7 +55,7 @@ export default function WorkSmall(props) {
       <CardContent>
         <Typography variant="body2" color="white" component="p" className={classes.root}
         >
-          This impressive paella is a perfect party dish and a
+         {worksmalltext}
           
         </Typography>
       </CardContent>

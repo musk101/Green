@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap');
+.rr2
+{
+    width:40%;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-weight: 600;
+    font-size:2vw;
+    font-family: 'Blinker', sans-serif;
+}
+.rr3
+{
+    width:20%;
+}
+.about_text
+{
+    font-weight: 600;
+    font-size:2vw;
+    font-family: 'Blinker', sans-serif;
+}

@@ -13,6 +13,7 @@ import Aboutus from "./Aboutus";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from './Logo.svg';
 import Work from './Work';
+import ae from "./ae.svg";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <ul class="main-nav">
           <li><a href="/work">Work</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="/about">About</a></li>
           <li><img src={nightday}/></li>
           <li><a href="#" className="lets_talk">Let's Talk</a></li>
       </ul>

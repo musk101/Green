@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import './CardDesign.css';
-import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   root: {

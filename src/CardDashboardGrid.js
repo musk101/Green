@@ -13,6 +13,7 @@ const useStyles = makeStyles({
   gridContainer: {
     paddingLeft: "40px",
     paddingRight: "40px",
+    
   }
 });
 
@@ -24,12 +25,13 @@ export default function CardsGrid() {
         spacing={10}
         className={classes.gridContainer}
         justify="center"
+        id="tst"
       >
-        <Grid item xs={12} sm={6} md={3} >
-          <CardDesign src={integrity} alt="1" className="tst" />
+        <Grid item xs={12} sm={6} md={3}   >
+          <CardDesign src={integrity} alt="1"  />
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-        <CardDesign src={customercentric}  alt="2"/>
+        <CardDesign src={customercentric}  alt="2" />
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={goodteam}  alt="3"/>

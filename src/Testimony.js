@@ -8,6 +8,12 @@ function Testimony(props) {
   const Clientimage=props.Clientimage;
 
     return (
+      <>
+      <Grid container style={{color:"#1c8463"}} className="imajtop">
+        <Grid item xs={false} sm={12} md={12} >
+          <h1>What Clients Says?</h1>
+          </Grid>
+        </Grid>
         <Slider dots Color={false} arrows={false}>
     <Grid container style={{backgroundColor:"green"}}>
         <Grid item xs={false} sm={12} md={12} >
@@ -28,6 +34,7 @@ function Testimony(props) {
         </Grid>
         </Grid>
   </Slider>
+  </>
     )
 }
 

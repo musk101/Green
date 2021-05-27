@@ -5,3 +5,17 @@ padding-left: 15vw;
 padding-bottom: 7vw;
 padding-top: 2vw;
 }
+@media all and (max-width: 770px) {
+    .workLaptopView { 
+      display: none !important;
+    }
+  }
+  @media all and (min-width: 770px) {
+    .worksmall { 
+      display: none !important;
+    }
+  }
+  .worksmall 
+  {
+      justify-content:center;
+  }

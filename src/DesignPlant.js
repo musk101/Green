@@ -5,7 +5,9 @@ import './DesignPlant.css';
 import DesignButton from './DesignButton.svg';
 import DevelopButton from './DevelopButton.svg';
 import BusinessButton from './BusinessButton.svg';
+import WorkSmall from './WorkSmall';
 import { makeStyles } from "@material-ui/core/styles";
+import DesignSmall from './DesignSmall.svg';
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -17,7 +19,12 @@ function DesignPlant() {
   const classes = useStyles();
     return (
         <div>
-      <Grid container>
+          <Grid container className="worksmall" spacing={3}>
+            <Grid item md={12} className="rrd">
+            <WorkSmall worksmallimage={DesignSmall} worksmalltext="some text will come here very soon" cardcolor="#1c8463"/>
+            </Grid>
+            </Grid>
+      <Grid container className="workLaptopView">
         <Grid item xs={10} sm={10} md={10} >
           <img className="plant" src={plant} alt=""/>
         </Grid>

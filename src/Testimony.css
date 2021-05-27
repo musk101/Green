@@ -3,3 +3,13 @@
     width: 70vw;
     margin-top: 5rem;
 }
+@media all and (max-width: 770px) {
+    .imaj { 
+      display: none !important;
+    }
+    .imajtop
+    {
+        display: none !important;
+    }
+  }
+  

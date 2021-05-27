@@ -9,6 +9,7 @@ import Text from './Text.svg'
 import Fourth from './Fourth.svg';
 import SecondDashboard from './SecondDashboard.svg';
 import Third from './Third.svg';
+import Client from './Client.svg';
 
 function Page1() {
     return (
@@ -18,6 +19,7 @@ function Page1() {
      <Testimony/>
      <CardHeading/>
      <CardDashboardGrid/>
+     <Testimony Clientimage={Client}/>
      <Footer/>
         </div>
     )

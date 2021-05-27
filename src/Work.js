@@ -29,13 +29,13 @@ function Work() {
         <div>
             <Grid container className="worksmall" spacing={3}>
             <Grid item md={12} className="rrd">
-            <WorkSmall worksmallimage={WorkSmall1}/>
+            <WorkSmall worksmallimage={WorkSmall1} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
             </Grid>
             <Grid item md={12} className="rrd">
-            <WorkSmall worksmallimage={WorkSmall2}/>
+            <WorkSmall worksmallimage={WorkSmall2} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
             </Grid>
             <Grid item md={12} className="rrd">
-            <WorkSmall worksmallimage={WorkSmall3}/>
+            <WorkSmall worksmallimage={WorkSmall3} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
 
             </Grid>
             </Grid>
