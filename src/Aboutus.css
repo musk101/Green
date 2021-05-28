@@ -18,3 +18,31 @@
     font-size:2vw;
     font-family: 'Blinker', sans-serif;
 }
+.whyus
+{
+font-weight: 600;
+font-size: 2vw;
+color: #ff5975;
+padding-top: 100px;
+margin-left: 200px;
+}
+@media all and (max-width: 770px) {
+    .Aboutus { 
+      display: none !important;
+    }
+    
+  }
+  @media all and (min-width: 770px) {
+    .Aboutussmall { 
+      display: none !important;
+    }
+    
+  }
+  .smallpara
+  {
+    font-weight: 600;
+    font-size:3vw;
+    font-family: 'Blinker', sans-serif;
+    text-align: left;
+    padding-left: 7%;
+  }
