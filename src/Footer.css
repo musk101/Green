@@ -1,120 +1,28 @@
-.footer-container {
-    background-color: #f5f6f1;
-    padding: 0.002rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap');
+
+.img-footer
+{
+  width: 100%;
+  object-fit: contain;
+  background-color: #f5f6f1;
+}
+
+.new
+{
+  font-family: 'Blinker', sans-serif;
+  padding-top: 2%;
+  background-color: #f5f6f1;
+  font-size: 20px;
+}
+@media all and (max-width: 770px) {
+  .footer { 
+    display: none !important;
+  }
+  
+}
+@media all and (min-width: 770px) {
+  .footersmall { 
+    display: none !important;
+  }
   }
 
-  .footer-subscription {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    margin-bottom: 24px;
-    color: #fff;
-  }
-
-  .footer-subscription > p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-
-  .footer-subscription-heading {
-    margin-bottom: 12px;
-    font-size: 24px;
-  }
-
-  .footer-subscription-text {
-    margin-bottom: 24px;
-    font-size: 20px;
-  }
-
-  .footer-input {
-    padding: 8px 20px;
-    border-radius: 2px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    margin-bottom: 16px;
-    border: 1px solid #fff;
-  }
-
-  .footer-links {
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-link-wrapper {
-    display: flex;
-  }
-
-  .footer-link-items {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
-    text-align: left;
-    width: 300px;
-    box-sizing: border-box;
-  }
-
-  .footer-link-items h2 {
-    margin-bottom: 16px;
-  }
-
-  .footer-link-items > h2 {
-    color:black;
-  }
-
-  .footer-link-items a {
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-  }
-  .image
-  {
-      width: 150%;
-      height: 100%;
-      margin-left: -40rem;
-
-  }
-
-  .footer-link-items a:hover {
-    color: green;
-    transition: 0.3s ease-out;
-  }
-  .website-rights {
-    color: black;
-  }
-
-  @media screen and (max-width: 820px) {
-    .footer-links {
-      padding-top: 2rem;
-    }
-
-    .footer-input {
-      width: 100%;
-    }
-
-    .btn {
-      width: 100%;
-    }
-
-    .footer-link-wrapper {
-      flex-direction: column;
-    }
-
-    .social-media-wrap {
-      flex-direction: column;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-  }

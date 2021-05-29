@@ -1,55 +1,46 @@
 import React from 'react';
 import './Footer.css';
+import FooterSmall from './FooterSmall';
+import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
 import footerImage from './FooterImage.svg';
 
 function Footer() {
-  return (
-    <div className='footer-container'>
-        
-      <section className='footer-subscription'>
-       
-      </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-              <div style={{backgroundColor:"red"}}>
-         <img className="image" src={footerImage} alt=""/>
-          </div>
-          </div>
-          
-        </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>EXPLORE</h2>
-            <Link to='/'>ABOUT US</Link>
-            <Link to='/'>PROJECTS</Link>
-            <Link to='/'>COURIERS</Link>
-            <Link to='/'>BLOGS</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>SERVICES</h2>
-            <Link to='/design'>DESIGN</Link>
-            <Link to='/develop'>DEVELOP</Link>
-            <Link to='/market'>BUSINESS</Link>
-          </div>
-        </div>
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
 
-              <i class='fab fa-typo3' />
-            </Link>
-          </div >
-          <div>
-          <small class='website-rights'>MADE WITH 🧡 IN India</small>
-          </div>
+  return (
+    <div>
+        <div className="footersmall">
+        <FooterSmall/>
         </div>
-      </section>
-    </div>
-  );
+       
+          <Grid container className="footer">
+          <Grid item md={5} >
+           
+          <img src={footerImage} alt="" width="600px" height="350px" className="img-footer"/>
+ 
+         </Grid>
+          <Grid item md={2} className="new">
+        
+            <h2>EXPLORE</h2>
+            <Link to='/'>ABOUT US</Link><br/>
+            <Link to='/'>PROJECTS</Link><br/>
+            <Link to='/'>COURIERS</Link><br/>
+            <Link to='/'>BLOGS</Link>
+            
+        
+          </Grid>
+          <Grid item md={2} className="new" >
+     
+            <h2>SERVICES</h2>
+            <Link to='/design'>DESIGN</Link><br/>
+            <Link to='/develop'>DEVELOP</Link><br/>
+            <Link to='/market'>BUSINESS</Link><br/>
+   
+          </Grid>
+          </Grid>
+      </div>
+  )
 }
 
-export default Footer; 
+export default Footer;
+// style={{ display:"inline-block", marginLeft:"-70px", marginBottom:"-90px"}}
