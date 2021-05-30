@@ -5,8 +5,8 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import smalllogo from './smallfooterlogo.svg'
+import { Link } from 'react-router-dom';
 import AddIcon from '@material-ui/icons/Add';
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,7 +32,7 @@ export default function FooterSmall() {
     <div className={classes.root}>
         <Grid container spacing={2} justify="center">
         <Grid item xs={12} justify="center">
-<img src={smalllogo} alt="" style={{paddingLeft:"27%"}}/>
+<img src={smalllogo} alt="" style={{paddingLeft:"27%", paddingTop:"10%"}}/>
             </Grid>
         <Grid item xs={8} >
       <Accordion>
@@ -40,30 +40,35 @@ export default function FooterSmall() {
           expandIcon={<AddIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          style={{backgroundColor:"#f1ecec"}}
         >
           <Typography className={classes.heading} >EXPLORE</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails  style={{backgroundColor:"#f1ecec"}}>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+          <div><Link to="/aboutus" className={classes.heading}>ABOUT US</Link></div>
+          <div><Link to="#"className={classes.heading}>PROJECTS</Link></div>
+          <div><Link to="#"className={classes.heading}>COURIERS</Link></div>
+          <div><Link to="#"className={classes.heading}>BLOGS</Link></div>
           </Typography>
         </AccordionDetails>
       </Accordion>
       </Grid>
       <Grid item xs={8} className="rrd">
-      <Accordion>
+      <Accordion >
         <AccordionSummary
           expandIcon={<AddIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          style={{backgroundColor:"#f1ecec"}}
         >
           <Typography className={classes.heading}>SERVICES</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails  style={{backgroundColor:"#f1ecec"}}>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+          <div><Link to="/design" className={classes.heading}>DESIGN</Link></div>
+          <div><Link to="develop"  className={classes.heading}>DEVELOP</Link></div>
+          <div><Link to="market"  className={classes.heading}>BUSINESS</Link></div>
           </Typography>
         </AccordionDetails>
       </Accordion>

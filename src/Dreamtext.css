@@ -13,6 +13,8 @@
     font-weight: 600;
     font-family: 'Blinker', sans-serif;
     font-size: 23px;
+    line-height: 47px;
+    margin-left: 10%;
 }
 .text-convert
 {
@@ -36,8 +38,10 @@
     padding-left: 8%;
     color: #34c25e;
 }
+
 @media all and (max-width: 770px) {
-    .text_help {
+    .text_help 
+    {
      align-items: left;
       border-bottom: 3px dotted;
    
@@ -45,7 +49,7 @@
     .list-service
     {
        justify-content: left;
-       padding-left: 8%;
+      
     }
     .text-convert
 {
@@ -65,5 +69,9 @@
     font-size: 6vw;
     padding-left: 8%;
     color: #34c25e;
+}
+.text-help
+{
+    margin-left: 20%;
 }
 }

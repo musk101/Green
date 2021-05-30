@@ -2,7 +2,6 @@ import React from 'react';
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Dreamtext from './Dreamtext';
-import helpyou from './helpyou.svg'
 import Footer from './Footer';
 import "./LinkPage.css";
 
@@ -17,11 +16,19 @@ function LinkPage(props) {
     const linktext = props.linktext;
     const linkphoto=props.linkphoto;
     const secondlinktext=props.secondlinktext;
+    const topHeading=props.topHeading;
+    const secondHeading=props.secondHeading;
+
     const classes = useStyles();
     return (
         <div>
             <>
             <>
+            <Grid container className="list-service">
+        <Grid item xs={12} sm={4} md={4} >
+          <p className="heading">{props.topHeading}</p>
+          </Grid>
+          </Grid>
       <Grid
         container
         spacing={2}
@@ -39,8 +46,11 @@ function LinkPage(props) {
          container
          spacing={10}
          className={classes.gridContainer}
-         justify="center"
+         
        >
+          <Grid item xs={12} sm={4} md={4} >
+          <p className="heading">{props.secondHeading}</p>
+          </Grid>
         <Grid item xs={12} sm={12} md={12}>
         <p className="op2">{props.secondlinktext}</p>
         </Grid>

@@ -22,7 +22,9 @@ function Aboutus() {
           <Aboutussmall/>
           </div>
         <Grid container className="Aboutus">
-           
+        <Grid item md={12} xs={12} sm={12}  className="rr1">
+          <h className="about-heading">ABOUT US</h>
+        </Grid>
         <Grid item md={3} xs={6} sm={6}  className="rr1">
           <img src={FlyingSaly} alt=""  width="450vw" height="auto"/>
         </Grid>
@@ -36,7 +38,7 @@ function Aboutus() {
         </Grid>
         <Grid container  justify="center" className="Aboutus">
            
-        <Grid item md={8} xs={6} sm={7} className="about_text" >
+        <Grid item md={8} xs={8} sm={7} className="about_text" >
             
          <p>We are the destination for your online journey of ideas and innovations.</p>
 

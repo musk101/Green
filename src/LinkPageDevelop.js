@@ -28,7 +28,7 @@ function LinkPage(props) {
         className={classes.gridContainer}
       
       >
-        <Grid item xs={9} sm={7} md={6}>
+        <Grid item xs={12} sm={7} md={6}>
           <p className="op">{props.linktext}</p>
         </Grid>
         <Grid item xs={null} sm={5} md={6} className="linkphototest">
@@ -41,7 +41,7 @@ function LinkPage(props) {
          className={classes.gridContainer}
          justify="center"
        >
-        <Grid item xs={9} sm={12} md={12}>
+        <Grid item xs={12} sm={12} md={12}>
         <p className="op2">{props.secondlinktext}</p>
         </Grid>
         </Grid>

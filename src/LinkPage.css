@@ -9,22 +9,40 @@
     font-weight: 600;
     font-family: 'Blinker', sans-serif;
     font-size: 5vmin;
-   margin-left: 4vmin;
-   margin-bottom: 3vw;
+   margin-left: 7vmin;
+   margin-bottom: 10vw;
    text-align: left;
+}
+.heading
+{
+  color: #ff5975;
+  font-family: 'Blinker', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5vw;
+  font-size: 3vw;
+  margin-left: 10vmin;
 }
 .op2
 {
     font-weight: 400;
     font-family: 'Blinker', sans-serif;
     font-size: 5.0vmin;
-    margin-left: 2vmin;
+    margin-left: 7vmin;
    text-align: left;
    margin-bottom: 20vmin;
 }
 @media all and (max-width: 770px) {
   .linkphototest { 
     display: none;
+  }
+  .heading
+  {
+    color: #ff5975;
+  font-family: 'Blinker', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5vw;
+  font-size: 10vw;
+  margin-left: 7vmin;
   }
 }
 @media all and (max-width:770px){

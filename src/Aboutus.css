@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap');
 .rr2
 {
     width:40%;
@@ -8,6 +9,10 @@
     font-size:2vw;
     font-family: 'Blinker', sans-serif;
 }
+.about-card
+{
+ margin-left: 20%;
+}
 .rr3
 {
     width:20%;
@@ -15,8 +20,17 @@
 .about_text
 {
     font-weight: 600;
-    font-size:2vw;
+    font-size:1.5vw;
     font-family: 'Blinker', sans-serif;
+    
+}
+.about-heading
+{
+  font-family: 'Blinker', sans-serif;
+  font-weight: 800;
+  color: #1c8463;
+  font-size: 3vw;
+  padding-left: 40vw;
 }
 .whyus
 {
@@ -25,12 +39,31 @@ font-size: 2vw;
 color: #ff5975;
 padding-top: 100px;
 margin-left: 200px;
+padding-left: 15%;
+}
+.whyussmall
+{
+  font-weight: 600;
+font-size: 8vw;
+color: #ff5975;
+margin-left: 100px;
+padding-left: 5%;
 }
 @media all and (max-width: 770px) {
     .Aboutus { 
       display: none !important;
     }
-    
+    .rr2
+  {
+    padding-left: 25vw;
+    font-size: 4vw;
+  }
+  .about-heading
+  {
+    font-size: 6vw;
+    padding-top: 5%;
+  }
+
   }
   @media all and (min-width: 770px) {
     .Aboutussmall { 
@@ -44,5 +77,7 @@ margin-left: 200px;
     font-size:3vw;
     font-family: 'Blinker', sans-serif;
     text-align: left;
-    padding-left: 7%;
+    padding-left: 5%;
   }
+
+  

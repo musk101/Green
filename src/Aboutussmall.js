@@ -1,6 +1,4 @@
 import React from 'react';
-import Dashboard from './Dashboard';
-import about from './about.svg';
 import FlyingSaly from './FlyingSaly.svg';
 import aboutsecond from './aboutsecond.svg';
 import CardDesign from "./CardDesign";
@@ -19,7 +17,9 @@ function Aboutussmall() {
         <div>
         
         <Grid container>
-           
+        <Grid item md={12} xs={12} sm={12}  className="about-heading">
+          <h>ABOUT US</h>
+        </Grid>  
         <Grid item xs={3}  className="rr1">
           <img src={FlyingSaly} alt=""  width="200vw" height="auto"/>
         </Grid>
@@ -46,15 +46,15 @@ the initial phases of designing and developing to your branding.
         </Grid>
         </Grid>
         <Grid container  justify="center" className="Aboutussmall">
-           
-           <Grid item xs={12} className="whyus">
+        
+           <Grid item xs={12} md={3} sm={5}  className="Aboutussmall">
                
-            <p>WHY US?</p>
+            <p className="whyussmall">WHY US?</p>
            </Grid>
            </Grid>
-           <Grid container  justify="center" >
+           <Grid container >
            <Grid item xs={6}>
-           <Grid container spacing={8} justify="center" >
+           <Grid container spacing={1} justify="center" >
            <Grid item xs={12} sm={6} md={3}   >
           <CardDesign src={integrity} alt="1"  />
         </Grid>
@@ -72,9 +72,9 @@ the initial phases of designing and developing to your branding.
               </Grid>
               </Grid>
            </Grid>
-           {/* <div className="Aboutussmall">
+           <div className="Aboutussmall">
            <Footer/>
-           </div> */}
+           </div>
         </div>
     )
 }
