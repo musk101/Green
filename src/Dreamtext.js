@@ -24,17 +24,19 @@ function Dreamtext(props) {
     return (
         <div>
            <Grid container>
-        <Grid item md={12} xs={12}  className="rrd">
+        <Grid item md={12} xs={12}  className="serve">
           <h>WHAT WE SERVE?</h>
         </Grid>
         </Grid>
             <Grid container>
-        <Grid item md={12}  xs={12} className="rr">
-          <h>We help you to turn
-your ideas into your dream design.</h>
+        <Grid item md={12}  xs={12} className="text-convert">
+          <h>We convert the designgs</h>
+          </Grid>
+          <Grid item md={12}  xs={12} className="text-convert">
+<h>into the codes as per your requirements.</h>
         </Grid>
         </Grid>
-            <Grid container >
+            <Grid container className="list-service">
         <Grid item xs={12} sm={4} md={4} >
         <div><Link to={text1link} className="text_help">{text1}</Link></div>
         <div> <Link to={text2link} className="text_help">{text2}</Link></div>

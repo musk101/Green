@@ -22,7 +22,7 @@ function Dashboard(props) {
     const classes = useStyles();
     return (
         <div>
-      <Grid container>
+      <Grid container className="reverse-items">
         <Grid item xs={12} sm={6} md={6} >
           <img className="saly" src={dashimage} alt=""/>
         </Grid>

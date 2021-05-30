@@ -18,8 +18,8 @@ import java from "./java.svg";
 
 const useStyles = makeStyles({
   gridContainer: {
-    paddingLeft: "40px",
-    paddingRight: "40px",
+    paddingLeft: "10px",
+    paddingRight: "10px",
   }
 });
 

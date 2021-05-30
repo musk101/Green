@@ -12,11 +12,15 @@
 {
 width:70%;
 padding-top: 3rem;
+margin-left: 25%;
+padding-bottom: 30%;
 }
 .text
 {
     width: 50%;
-    padding-top: 8rem;
+    padding-top: 3rem;
+    margin-left: 25%;
+    padding-bottom: 30%;
 }
 .second
 {
@@ -49,3 +53,29 @@ padding-top: 3rem;
     transition-duration: 0.9s;
 }
 
+@media all and (max-width: 770px) {
+    .reverse-items { 
+        display: flex;
+      flex-direction: column-reverse;
+    }
+    .text
+    {
+        float: left;
+        padding-left: 8%;
+        width: 80%;
+    }
+    .saly
+{
+width:90%;
+padding-top: 3rem;
+margin-left: 10%;
+padding-bottom: 30%;
+}
+.text
+{
+    width: 90%;
+    padding-top: 3rem;
+    margin-left: 10%;
+    padding-bottom: 30%;
+}
+  }

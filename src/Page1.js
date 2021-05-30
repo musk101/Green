@@ -16,7 +16,6 @@ function Page1() {
         <div>
             <Dashboard dashimage={Saly} dashimage2={Text} seconddashimage={SecondDashboard} thirddashimage={Third} fourthdashimage={Fourth} display={true}/>
             {/* //display is to render props  */}
-     <Testimony/>
      <CardHeading/>
      <CardDashboardGrid/>
      <Testimony Clientimage={Client}/>

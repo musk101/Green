@@ -11,6 +11,7 @@ import WorkSmall1 from './WorkSmall1.svg';
 import WorkSmall2 from './WorkSmall2.svg';
 import WorkSmall3 from './WorkSmall3.svg';
 import Client from './Client.svg'
+import Footer from './Footer';
 import testimonysmall from './testimonySmall.svg';
 
 const useStyles = makeStyles((theme) => ({
@@ -79,6 +80,7 @@ function Work() {
         <Testimony Clientimage={testimonysmall}/>
         </Grid>
         </Grid>
+        <Footer/>
         </div>
     )
 }

@@ -7,17 +7,20 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import smalllogo from './smallfooterlogo.svg'
-
+import AddIcon from '@material-ui/icons/Add';
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
  color:"black",
+
+ 
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
-    fontWeight: 600,
+    fontWeight: 700,
     color: "#686868",
+    
   },
 }));
 
@@ -33,11 +36,11 @@ export default function FooterSmall() {
         <Grid item xs={8} >
       <Accordion>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<AddIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>EXPLORE</Typography>
+          <Typography className={classes.heading} >EXPLORE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -50,7 +53,7 @@ export default function FooterSmall() {
       <Grid item xs={8} className="rrd">
       <Accordion>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<AddIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
