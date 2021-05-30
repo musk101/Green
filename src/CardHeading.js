@@ -5,7 +5,7 @@ import './Cards.css';
 function CardHeading() {
     return (
         <div>
-            <img src={WhyUs} alt="" className="whyus"/>
+            <img src={WhyUs} alt="" className="whyus" style={{paddingLeft:"30vw"}}/>
         </div>
     )
 }

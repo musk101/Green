@@ -10,11 +10,11 @@ function Testimony(props) {
     return (
       <>
       <Grid container style={{color:"#1c8463"}} className="imajtop">
-        <Grid item xs={false} sm={12} md={12} >
-          <h1>What Clients Says?</h1>
+        <Grid item xs={false} sm={12} md={12} className="whatsay">
+          <h1 >What Clients Says?</h1>
           </Grid>
         </Grid>
-        <Slider dots Color={false} arrows={false}>
+        <Slider dots Color={false} arrows={false} className="imajtopbox" >
     <Grid container style={{backgroundColor:"green"}}>
         <Grid item xs={false} sm={12} md={12} >
           <img className="imaj" src={Clientimage} alt=""/>

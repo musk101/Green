@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: theme.typography.fontWeightRegular,
     fontWeight: 700,
     color: "#686868",
+   
     
   },
 }));
@@ -31,7 +32,7 @@ export default function FooterSmall() {
     <div className={classes.root}>
         <Grid container spacing={2} justify="center">
         <Grid item xs={12} justify="center">
-<img src={smalllogo} alt=""/>
+<img src={smalllogo} alt="" style={{paddingLeft:"27%"}}/>
             </Grid>
         <Grid item xs={8} >
       <Accordion>
@@ -71,7 +72,7 @@ export default function FooterSmall() {
       <Typography>© copyright all rights reserved.</Typography>
       </Grid>
       <Grid item xs={12} style={{backgroundColor:"#c4c4c4", color:"#FFFFFF"}}>
-      <Typography style={{fontWeight:"400"}}>MADE WITH ❤️ IN INDIA </Typography>
+      <Typography style={{fontWeight:"600", paddingLeft:"25vw"}}>MADE WITH ❤️ IN INDIA </Typography>
       </Grid>
       </Grid>
     </div>

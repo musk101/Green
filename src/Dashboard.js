@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import SmallDashboard from './SmallDashboard';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -22,16 +23,20 @@ function Dashboard(props) {
     const classes = useStyles();
     return (
         <div>
-      <Grid container className="reverse-items">
+  
+      <Grid container className="reverse-items" >
         <Grid item xs={12} sm={6} md={6} >
-          <img className="saly" src={dashimage} alt=""/>
+          <img className="saly" src={dashimage} alt="" />
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
           <img className="text" src={dashimage2} alt=""/>
         </Grid>
         </Grid>
+        <div className="dashsmall">
+        <SmallDashboard/>
+        </div>
         { props.seconddashimage?
-       <><Grid container >
+       <><Grid container className="dashbig">
         <Grid item xs={12} sm={12} md={12} >
           <img className="second" src={seconddashimage} alt=""/>
         </Grid>
@@ -39,12 +44,12 @@ function Dashboard(props) {
         </> :null
 }
         { props.display?
-         <> <Grid container >
+         <> <Grid container className="dashbig">
         <Grid item xs={12} sm={12} md={12} >
           <img className="Third" src={thirddashimage} alt=""/>
         </Grid>
         </Grid>
-        <Grid container >
+        <Grid container className="dashbig">
         <Grid item xs={12} sm={12} md={12} >
           <img className="fourth" src={fourthdashimage} alt=""/>
         </Grid>

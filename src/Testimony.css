@@ -1,7 +1,16 @@
 .imaj
 {
-    width: 70vw;
-    margin-top: 5rem;
+    width: 90vw;
+    margin-top: 1rem;
+    padding-left:10%
+}
+.imajtop
+{
+  padding-left:40%
+}
+.whatsay
+{
+  padding-top: 7%;
 }
 @media all and (max-width: 770px) {
     .imaj { 

@@ -28,16 +28,20 @@ export default function CardsGrid() {
         id="tst"
       >
         <Grid item xs={12} sm={6} md={3}   >
-          <CardDesign src={integrity} alt="1"  />
+          <CardDesign src={integrity} alt="1"/>
+          <p className="cardname">Integrity</p>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={customercentric}  alt="2" />
+        <p className="cardname">Customer Centric</p>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={goodteam}  alt="3"/>
+        <p className="cardname">Good Team</p>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
         <CardDesign src={trustworthy}  alt="4"/>
+        <p className="cardname">Trust Worthy</p>
         </Grid>
       </Grid>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import FooterSmall from './FooterSmall';
-
+import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
 import footerImage from './FooterImage.svg';
@@ -38,6 +38,9 @@ function Footer() {
             <Link to='/market'>BUSINESS</Link><br/>
    
           </Grid>
+          <Grid item xs={12} style={{backgroundColor:"#c4c4c4", color:"#FFFFFF"}}>
+      <Typography style={{fontWeight:"600", paddingLeft:"45vw"}}>MADE WITH ❤️ IN INDIA </Typography>
+      </Grid>
           </Grid>
       </div>
   )

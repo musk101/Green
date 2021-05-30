@@ -32,7 +32,7 @@ function Dreamtext(props) {
         <Grid item md={12}  xs={12} className="text-convert">
           <h>We convert the designgs</h>
           </Grid>
-          <Grid item md={12}  xs={12} className="text-convert">
+          <Grid item md={12}  xs={12} className="text-convert2">
 <h>into the codes as per your requirements.</h>
         </Grid>
         </Grid>

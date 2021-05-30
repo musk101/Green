@@ -33,14 +33,17 @@ export default function CardsGrid() {
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={7} sm={6} md={3} >
-          <CardDesign src={js}/>
+        <Grid item xs={7} sm={6} md={3}>
+          <CardDesign src={js} />
+          <p className="cardname">Java Script</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={swift}/>
+        <p className="cardname">Swift</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={python}/>
+        <p className="cardname">Python</p>
         </Grid>
         </Grid>
         <Grid
@@ -51,12 +54,15 @@ export default function CardsGrid() {
       >
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={flutter}/>
+        <p className="cardname">Flutter</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={react}/>
+        <p className="cardname">Integrity</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={angular}/>
+        <p className="cardname">Integrity</p>
         </Grid>
         </Grid>
         <Grid
@@ -67,12 +73,15 @@ export default function CardsGrid() {
       >
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={nodejs}/>
+        <p className="cardname">Integrity</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={mysql}/>
+        <p className="cardname">Integrity</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={php}/>
+        <p className="cardname">Integrity</p>
         </Grid>
         </Grid>
         <Grid
@@ -83,12 +92,14 @@ export default function CardsGrid() {
       >
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={css}/>
+        <p className="cardname">Integrity</p>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={html}/>
         </Grid>
         <Grid item xs={7} sm={6} md={3}>
         <CardDesign src={java}/>
+        <p className="cardname">Integrity</p>
         </Grid>
       </Grid>
       </>

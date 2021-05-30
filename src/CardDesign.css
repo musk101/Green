@@ -1,16 +1,26 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@800&display=swap');
 .whyus
 {
   padding:"2px";
-  margin-top:2rem;
+  margin-top:0.5%;
   margin-bottom: 2rem;
 }
 img.ok
 {
 z-index: 999999 !important;
 opacity: 1;
+margin-left: 25%;
 }
 
+.cardname
+{
+  padding-left: 120px;
+  font-weight: 600;
+  font-family: 'Blinker', sans-serif;
+  padding-left: 120px;
+  padding-bottom: 20%;
+}
 @media all and (max-width: 770px) {
   #tst {
     display: none !important;

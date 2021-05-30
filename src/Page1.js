@@ -16,9 +16,11 @@ function Page1() {
         <div>
             <Dashboard dashimage={Saly} dashimage2={Text} seconddashimage={SecondDashboard} thirddashimage={Third} fourthdashimage={Fourth} display={true}/>
             {/* //display is to render props  */}
+     
+     <Testimony Clientimage={Client}/>
      <CardHeading/>
      <CardDashboardGrid/>
-     <Testimony Clientimage={Client}/>
+    
      <Footer/>
         </div>
     )

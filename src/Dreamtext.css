@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@800&display=swap');
 
 
 .help
@@ -16,14 +17,21 @@
 .text-convert
 {
     font-family: 'Blinker', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 4vw;
+    padding-left: 8%;
+}
+.text-convert2
+{
+    font-family: 'Blinker', sans-serif;
+    font-weight: 800;
     font-size: 4vw;
     padding-left: 8%;
 }
 .serve
 {
     font-family: 'Blinker', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 2.5vw;
     padding-left: 8%;
     color: #34c25e;
@@ -43,6 +51,12 @@
 {
    
     font-size: 8vw;
+}
+.text-convert2
+{
+   
+    font-size: 8vw;
+    padding-bottom: 5%;
 }
 .serve
 {
