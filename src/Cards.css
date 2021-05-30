@@ -5,3 +5,8 @@
   margin-top:2rem;
   margin-bottom: 2rem;
 }
+@media all and (max-width: 770px) {
+  .whyus { 
+    display: none !important;
+  }
+}

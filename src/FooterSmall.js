@@ -11,11 +11,13 @@ import smalllogo from './smallfooterlogo.svg'
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
- color:"green",
+ color:"black",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
+    fontWeight: 600,
+    color: "#686868",
   },
 }));
 
@@ -35,7 +37,7 @@ export default function FooterSmall() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Accordion 1</Typography>
+          <Typography className={classes.heading}>EXPLORE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -52,7 +54,7 @@ export default function FooterSmall() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Accordion 1</Typography>
+          <Typography className={classes.heading}>SERVICES</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -64,6 +66,9 @@ export default function FooterSmall() {
       </Grid>
       <Grid item xs={8} >
       <Typography>© copyright all rights reserved.</Typography>
+      </Grid>
+      <Grid item xs={12} style={{backgroundColor:"#c4c4c4", color:"#FFFFFF"}}>
+      <Typography style={{fontWeight:"400"}}>MADE WITH ❤️ IN INDIA </Typography>
       </Grid>
       </Grid>
     </div>

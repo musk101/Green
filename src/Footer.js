@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import FooterSmall from './FooterSmall';
+
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
 import footerImage from './FooterImage.svg';
