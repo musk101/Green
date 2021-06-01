@@ -28,19 +28,7 @@ function Work() {
     const classes = useStyles();
     return (
         <div>
-            <Grid container className="worksmall" spacing={3}>
-            <Grid item md={12} className="rrd">
-            <WorkSmall worksmallimage={WorkSmall1} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
-            </Grid>
-            <Grid item md={12} className="rrd">
-            <WorkSmall worksmallimage={WorkSmall2} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
-            </Grid>
-            <Grid item md={12} className="rrd">
-            <WorkSmall worksmallimage={WorkSmall3} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
-
-            </Grid>
-            </Grid>
-            <Grid container>
+          <Grid container>
         <Grid item md={12} xs={12}  className="rrd">
           <h>WORK</h>
         </Grid>
@@ -55,6 +43,19 @@ function Work() {
           <h>WE PROVIDE THE WINGS YOUR BUSINESS NEEDS.</h>
         </Grid>
         </Grid>
+            <Grid container className="worksmall" spacing={3}>
+            <Grid item md={12} className="rrd">
+            <WorkSmall worksmallimage={WorkSmall1} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
+            </Grid>
+            <Grid item md={12} className="rrd" style={{paddingTop:"10vw"}}>
+            <WorkSmall worksmallimage={WorkSmall2} worksmalltext="some text will come here very soon" cardcolor="#ff5975" />
+            </Grid>
+            <Grid item md={12} className="rrd"  style={{paddingTop:"10vw"}}>
+            <WorkSmall worksmallimage={WorkSmall3} worksmalltext="some text will come here very soon" cardcolor="#ff5975"/>
+
+            </Grid>
+            </Grid>
+            
         <Grid container className="workLaptopView">
         <Grid item  md={12} >
           <img src={Work1} alt="" className="work_img"/>

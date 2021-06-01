@@ -3,10 +3,7 @@ import './Dashboard.css'
 import Nib from './Nib.svg'
 import DesignText from './DesignText.svg'
 import { makeStyles } from '@material-ui/core/styles';
-import Third from './Third.svg';
 import Grid from '@material-ui/core/Grid';
-import Fourth from './Fourth.svg';
-import SecondDashboard from './SecondDashboard.svg';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,

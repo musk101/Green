@@ -8,13 +8,21 @@
     font-family: 'Blinker', sans-serif;
     font-size: 6vh;
 }
+.workLaptopView
+{
+  padding-left: 9vw;
+}
 .rrd
 {
     color: #FF5975;
     font-weight: 600;
     text-align: left;
-    padding-left: 6vw;
+    padding-left: 8vw;
     font-size: 4vh;
+}
+.photo-work
+{
+  padding-left:
 }
 .work_img
 {
@@ -31,6 +39,15 @@ padding-top: 6%;
     {
         display: none !important;
     }
+    .rrd
+    {
+      font-size: 2vh;
+      padding-top: 30px;
+    }
+    .rr
+    {
+      font-size:5vh;
+    }
   }
   @media all and (min-width: 770px) {
     .worksmall { 
@@ -44,4 +61,5 @@ padding-top: 6%;
   .worksmall 
   {
       justify-content:center;
+      padding-top: 10vw;
   }
