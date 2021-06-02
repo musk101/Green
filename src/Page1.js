@@ -27,7 +27,6 @@ function Page1() {
       <Testimony Clientimage={Client} />
       <CardHeading />
       <CardDashboardGrid />
-
       <Footer />
     </div>
   );

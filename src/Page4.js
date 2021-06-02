@@ -4,6 +4,7 @@ import two from "./two.svg";
 import CardDesignHeading from "./CardDesignHeading";
 import CardMarketGrid from "./CardMarketGrid";
 import Dreamtext from "./Dreamtext";
+import DesignPlant from "./DesignPlant";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
 function Page4() {
@@ -22,6 +23,7 @@ function Page4() {
       />
       <CardDesignHeading />
       <CardMarketGrid />
+      <DesignPlant textcolor="#97ed4c" />
       <Footer />
     </div>
   );

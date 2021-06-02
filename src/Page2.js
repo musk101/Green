@@ -11,8 +11,8 @@ function Page2() {
     <div>
       <DashboardDesign />
       <Dreamtext
-      Dream1="We help you to turn"
-      Dream2="your ideas into your dream design."
+        Dream1="We help you to turn"
+        Dream2="your ideas into your dream design."
         text1link="/ui"
         text2link="/ux"
         text22link="/mockupdesign"
@@ -32,7 +32,7 @@ function Page2() {
       />
       <CardDesignHeading />
       <CardDesignGrid />
-      <DesignPlant />
+      <DesignPlant textcolor="#1C8463" />
       <Footer />
     </div>
   );

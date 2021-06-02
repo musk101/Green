@@ -1,52 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap');
-.body
-{
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap");
+.body {
   overflow: hidden;
 }
-.op
-{
-    font-weight: 600;
-    font-family: 'Blinker', sans-serif;
-    font-size: 5vmin;
-   margin-left: 7vmin;
-   margin-bottom: 10vw;
-   text-align: left;
+.op {
+  font-weight: 600;
+  font-family: "Blinker", sans-serif;
+  font-size: 5vmin;
+  margin-left: 7vmin;
+  margin-bottom: 10vw;
+  text-align: left;
 }
-.heading
-{
+.heading {
   color: #ff5975;
-  font-family: 'Blinker', sans-serif;
+  font-family: "Blinker", sans-serif;
   font-weight: 600;
   margin-bottom: 0.5vw;
   font-size: 3vw;
   margin-left: 10vmin;
 }
-.op2
-{
-    font-weight: 400;
-    font-family: 'Blinker', sans-serif;
-    font-size: 5.0vmin;
-    margin-left: 7vmin;
-   text-align: left;
-   margin-bottom: 20vmin;
+.op2 {
+  font-weight: 400;
+  font-family: "Blinker", sans-serif;
+  font-size: 5vmin;
+  margin-left: 7vmin;
+  text-align: left;
+  margin-bottom: 20vmin;
 }
 @media all and (max-width: 770px) {
-  .linkphototest { 
+  .linkphototest {
     display: none;
   }
-  .heading
-  {
+  .heading {
     color: #ff5975;
-  font-family: 'Blinker', sans-serif;
-  font-weight: 600;
-  margin-bottom: 0.5vw;
-  font-size: 10vw;
-  margin-left: 7vmin;
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+    font-size: 10vw;
+    margin-left: 7vmin;
   }
 }
-@media all and (max-width:770px){
-  .op{
-    font-size:25px
+@media all and (max-width: 770px) {
+  .op {
+    font-size: 25px;
   }
 }

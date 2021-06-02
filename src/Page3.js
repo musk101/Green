@@ -33,7 +33,7 @@ function Page3() {
       />
       <CardDesignHeading />
       <CardDevelopGrid />
-      <DesignPlant />
+      <DesignPlant textcolor="#34C25E" />
       <Footer />
     </div>
   );
