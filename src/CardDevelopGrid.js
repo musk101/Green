@@ -20,89 +20,58 @@ const useStyles = makeStyles({
   gridContainer: {
     paddingLeft: "10px",
     paddingRight: "10px",
-  }
+  },
 });
 
 export default function CardsGrid() {
-    const classes = useStyles();
-    return (
-      <>
+  const classes = useStyles();
+  return (
+    <>
       <Grid
         container
-        spacing={10}
+        spacing={1}
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={7} sm={6} md={3}>
+        <Grid item xs={6} sm={6} md={3}>
           <CardDesign src={js} />
-          <p className="cardname">Java Script</p>
         </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={swift}/>
-        <p className="cardname">Swift</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={swift} />
+        
         </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={python}/>
-        <p className="cardname">Python</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={python} />
         </Grid>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={flutter} />
         </Grid>
-        <Grid
-        container
-        spacing={10}
-        className={classes.gridContainer}
-        justify="center"
-      >
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={flutter}/>
-        <p className="cardname">Flutter</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={react} />
         </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={react}/>
-        <p className="cardname">Integrity</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={angular} />
         </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={angular}/>
-        <p className="cardname">Integrity</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={nodejs} />
         </Grid>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={mysql} />
         </Grid>
-        <Grid
-        container
-        spacing={10}
-        className={classes.gridContainer}
-        justify="center"
-      >
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={nodejs}/>
-        <p className="cardname">Integrity</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={css} />
         </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={mysql}/>
-        <p className="cardname">Integrity</p>
+
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={css} />
         </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={php}/>
-        <p className="cardname">Integrity</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={css} />
         </Grid>
-        </Grid>
-        <Grid
-        container
-        spacing={10}
-        className={classes.gridContainer}
-        justify="center"
-      >
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={css}/>
-        <p className="cardname">Integrity</p>
-        </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={html}/>
-        </Grid>
-        <Grid item xs={7} sm={6} md={3}>
-        <CardDesign src={java}/>
-        <p className="cardname">Integrity</p>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={css} />
         </Grid>
       </Grid>
-      </>
-      
-    );
-  }
+    </>
+  );
+}

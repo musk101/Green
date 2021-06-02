@@ -60,27 +60,29 @@ function Dreamtext(props) {
             </div>
           ) : null}
         </Grid>
-       
+
         <Grid item xs={12} sm={4} md={4}>
-        {props.text3 ? (
-          <div>
-            <Link to={text3link} className="text_help">
-              {text3}
-            </Link>
-          </div> ) : null}
+          {props.text3 ? (
+            <div>
+              <Link to={text3link} className="text_help">
+                {text3}
+              </Link>
+            </div>
+          ) : null}
           {props.text4 ? (
-          <div>
-            
-            <Link to={text4link} className="text_help">
-              {text4}
-            </Link>
-          </div> ) : null}
+            <div>
+              <Link to={text4link} className="text_help">
+                {text4}
+              </Link>
+            </div>
+          ) : null}
           {props.text5 ? (
-          <div>
-            <Link to={text5link} className="text_help">
-              {text5}
-            </Link>
-          </div> ) : null}
+            <div>
+              <Link to={text5link} className="text_help">
+                {text5}
+              </Link>
+            </div>
+          ) : null}
         </Grid>
         <Grid item xs={12} sm={4} md={4}>
           <div>

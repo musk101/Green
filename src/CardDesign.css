@@ -10,7 +10,12 @@ img.ok {
   opacity: 1;
   margin-left: 25%;
 }
-
+#small-grid
+{
+ margin-left: "180px";
+ background-color: red;
+        
+}
 .cardname {
   padding-left: 120px;
   font-weight: 600;

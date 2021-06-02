@@ -26,49 +26,38 @@ export default function CardsGrid() {
       <>
       <Grid
         container
-        spacing={10}
+        spacing={1}
         className={classes.gridContainer}
         justify="center"
       >
-        <Grid item xs={9} sm={3} md={3} >
+        <Grid item xs={6} sm={3} md={3}>
           <CardDesign src={googleanalytics}/>
         </Grid>
-        <Grid item xs={9} sm={3} md={3}>
-        <CardDesign src={digitalmarket}/>
+        <Grid item xs={6} sm={3} md={3}>
+        <CardDesign src={googleanalytics}/>
         </Grid>
-        <Grid item xs={9} sm={3} md={3}>
-        <CardDesign src={loudspeaker}/>
-        </Grid>
-        </Grid>
-         <Grid
-         container
-         spacing={10}
-         className={classes.gridContainer}
-         justify="center"
-       >
-        <Grid item xs={9} sm={3} md={3}>
-        <CardDesign src={create}/>
-        </Grid>
-        <Grid item xs={9} sm={3} md={3}>
-        <CardDesign src={branddesign}/>
-        </Grid>
-        <Grid item xs={9} sm={3} md={3}>
-        <CardDesign src={googleads}/>
-        </Grid>
-        </Grid>
-         <Grid
-         container
-         spacing={10}
-         className={classes.gridContainer}
-         justify="center"
-       >
-        <Grid item xs={9} sm={3} md={3}>
-        <CardDesign src={designpost}/>
-        </Grid>
-        <Grid item xs={9} sm={3} md={3}>
+        <Grid item xs={6} sm={3} md={3}>
         <CardDesign src={clienttalk}/>
         </Grid>
-        <Grid item xs={9} sm={3} md={3}>
+       
+        <Grid item xs={6} sm={3} md={3}>
+        <CardDesign src={create}/>
+        </Grid>
+        <Grid item xs={6} sm={3} md={3}>
+        <CardDesign src={clienttalk}/>
+        </Grid>
+        <Grid item xs={6} sm={3} md={3}>
+        <CardDesign src={googleads}/>
+        </Grid>
+       
+        
+        <Grid item xs={6} sm={3} md={3}>
+        <CardDesign src={clienttalk}/>
+        </Grid>
+        <Grid item xs={6} sm={3} md={3}>
+        <CardDesign src={clienttalk}/>
+        </Grid>
+        <Grid item xs={6} sm={3} md={3}>
         <CardDesign src={hubspot}/>
         </Grid>
       </Grid>
