@@ -101,7 +101,7 @@ export default function FooterSmall() {
             </AccordionDetails>
           </Accordion>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={12} style={{paddingLeft:"23vw"}}>
           <Typography>© copyright all rights reserved.</Typography>
         </Grid>
         <Grid
