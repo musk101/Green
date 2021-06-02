@@ -29,7 +29,7 @@ export default function CardsGrid() {
         <CardDesign src={integrity} alt="1" />
         <p className="cardname">Integrity</p>
       </Grid>
-      <Grid item xs={12} sm={6} md={3}>
+      <Grid item xs={12} sm={6} md={3} >
         <CardDesign src={customercentric} alt="2" />
         <p className="cardname">Customer Centric</p>
       </Grid>

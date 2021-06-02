@@ -41,7 +41,7 @@ export default function OutlinedCard(props) {
       }}
     >
       <CardContent>
-        <img src={image} className="ok" alt="" height="90%" width="50%" />
+        <img src={image} className="ok" alt="" height="50%" width="50%" />
       </CardContent>
     </Card>
   );
