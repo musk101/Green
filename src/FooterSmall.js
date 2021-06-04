@@ -109,9 +109,7 @@ export default function FooterSmall() {
           xs={12}
           style={{ backgroundColor: "#c4c4c4", color: "#FFFFFF" }}
         >
-          <Typography style={{ fontWeight: "600", paddingLeft: "25vw" }}>
-            MADE WITH ❤️ IN INDIA{" "}
-          </Typography>
+         
         </Grid>
       </Grid>
     </div>

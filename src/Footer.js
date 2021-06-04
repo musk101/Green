@@ -46,11 +46,7 @@ function Footer() {
           item
           xs={12}
           style={{ backgroundColor: "#c4c4c4", color: "#FFFFFF" }}
-        >
-          <Typography style={{ fontWeight: "600", paddingLeft: "45vw" }}>
-            MADE WITH ❤️ IN INDIA{" "}
-          </Typography>
-        </Grid>
+        ></Grid>
       </Grid>
     </div>
   );

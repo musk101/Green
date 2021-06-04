@@ -34,7 +34,7 @@ function LinkPage(props) {
               <p className="op">{props.linktext}</p>
             </Grid>
             <Grid item sm={5} md={6} className="linkphototest">
-              <img src={props.linkphoto} alt="" height="300px" width="300px" />
+              <img src={props.linkphoto} alt="" height="350px" width="600px" style={{ paddingLeft:"200px", marginTop:"-70px"}} />
             </Grid>
           </Grid>
           <Grid container spacing={10} className={classes.gridContainer}>
@@ -61,7 +61,7 @@ function LinkPage(props) {
           text6link="/logodesign"
           text7link="/content"
           text8link="/animations"
-          tex1="UI DESIGN"
+          text1="UI DESIGN"
           text2="UX DESIGN"
           text3="GRAPHICS DESIGN"
           text4="MATERIAL DESIGN"
