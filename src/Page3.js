@@ -3,6 +3,8 @@ import CardDesignHeading from "./CardDesignHeading";
 import CardDevelopGrid from "./CardDevelopGrid";
 import Dreamtext from "./Dreamtext";
 import Footer from "./Footer";
+import plant from "./Plant.svg";
+import PlantNew from "./Plantnew.svg";
 import Dashboard from "./Dashboard";
 import DesignPlant from "./DesignPlant";
 import pc from "./pc.svg";
@@ -33,7 +35,7 @@ function Page3() {
       />
       <CardDesignHeading />
       <CardDevelopGrid />
-      <DesignPlant textcolor="#34C25E" />
+      <DesignPlant textcolor="#34C25E" imageplant={PlantNew} />
       <Footer />
     </div>
   );

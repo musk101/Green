@@ -75,3 +75,11 @@
     margin-left: 20%;
 }
 }
+@media all and (min-width: 770px) {
+    .text_help 
+    {
+     align-items: left;
+     margin-left: 24%;
+      
+   
+    }}

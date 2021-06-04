@@ -1,6 +1,7 @@
 import React from "react";
 import markettext from "./markettext.svg";
 import two from "./two.svg";
+import Marketplant from "./MarketPlant.svg";
 import CardDesignHeading from "./CardDesignHeading";
 import CardMarketGrid from "./CardMarketGrid";
 import Dreamtext from "./Dreamtext";
@@ -23,7 +24,7 @@ function Page4() {
       />
       <CardDesignHeading />
       <CardMarketGrid />
-      <DesignPlant textcolor="#97ed4c" />
+      <DesignPlant textcolor="#97ed4c" imageplant={Marketplant}/>
       <Footer />
     </div>
   );

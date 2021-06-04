@@ -5,6 +5,7 @@ import CardDesignGrid from "./CardDesignGrid";
 import CardDesignHeading from "./CardDesignHeading";
 import DesignPlant from "./DesignPlant";
 import Dreamtext from "./Dreamtext";
+import RedPlant from "./RedPlant.svg";
 
 function Page2() {
   return (
@@ -32,7 +33,7 @@ function Page2() {
       />
       <CardDesignHeading />
       <CardDesignGrid />
-      <DesignPlant textcolor="#1C8463" />
+      <DesignPlant textcolor="#1C8463" imageplant={RedPlant}/>
       <Footer />
     </div>
   );

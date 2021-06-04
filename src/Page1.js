@@ -15,6 +15,7 @@ function Page1() {
   return (
     <div>
       <Dashboard
+      className="saly1"
         dashimage={Saly}
         dashimage2={Text}
         seconddashimage={SecondDashboard}

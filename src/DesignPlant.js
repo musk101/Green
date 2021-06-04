@@ -17,6 +17,7 @@ const useStyles = makeStyles({
 });
 function DesignPlant(props) {
   const textcolor = props.textcolor;
+  const imageplant= props.imageplant;
   const classes = useStyles();
   return (
     <div>
@@ -31,7 +32,7 @@ function DesignPlant(props) {
       </Grid>
       <Grid container className="workLaptopView">
         <Grid item xs={10} sm={10} md={10}>
-          <img className="plant" src={plant} alt="" />
+          <img className="plant" src={imageplant} alt="" />
         </Grid>
       </Grid>
       <Grid
