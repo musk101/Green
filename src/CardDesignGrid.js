@@ -31,7 +31,6 @@ export default function CardsGrid() {
         <Grid item xs={6} sm={6} md={4}>
           <CardDesign src={ai} />
         </Grid>
-
         <Grid item xs={6} sm={6} md={4}>
           <CardDesign src={id} />
         </Grid>
