@@ -19,13 +19,21 @@
   font-size: 3vw;
   margin-left: 10vmin;
 }
+.heading2 {
+  color: #ff5975;
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-size: 3vw;
+  margin-left: 10vmin;
+}
 .op2 {
   font-weight: 400;
   font-family: "Blinker", sans-serif;
   font-size: 5vmin;
-  margin-left: 7vmin;
+  margin-left: 10vmin;
   text-align: left;
   margin-bottom: 20vmin;
+  padding-top: -9px;
 }
 @media all and (max-width: 770px) {
   .linkphototest {
