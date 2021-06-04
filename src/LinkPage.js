@@ -59,6 +59,7 @@ function LinkPage(props) {
           ></Grid>
         </>
         <Dreamtext
+        className="dream-text"
         Dream1="We help you to turn"
         Dream2="your ideas into your dream design."
         text1link="/ui"
