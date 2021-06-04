@@ -10,7 +10,9 @@ import Testimony from "./Testimony";
 import WorkSmall1 from "./WorkSmall1.svg";
 import WorkSmall2 from "./WorkSmall2.svg";
 import WorkSmall3 from "./WorkSmall3.svg";
-import Client from "./Client.svg";
+import Client1 from "./Client1.svg";
+import Client2 from "./Client2.svg";
+import Client3 from "./Client3.svg";
 import Footer from "./Footer";
 import testimonysmall from "./testimonySmall.svg";
 
@@ -84,8 +86,9 @@ function Work() {
       </Grid>
       <Grid container className="testimony1">
         <Grid item md={12}>
-          <Testimony Clientimage={Client} />
+          <Testimony Clientimage1={Client1} Clientimage2={Client2} Clientimage3={Client3}  />
         </Grid>
+        
       </Grid>
       <Grid container className="testimony2">
         <Grid item xs={12} md={12}>

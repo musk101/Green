@@ -192,7 +192,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/androidapp"
             component={(props) => (
               <LinkPageDevelop
-              secondHeading="What is Android Application?"
+                secondHeading="What is Android Application?"
                 linktext="When the product, websites deals with repetitive tasks, it's hard to keep users excited about it. That's where UI comes into play."
                 linkphoto={niblink}
                 secondlinktext="On a website, web or mobile app, humans constanly interact with multiple elements. While a good UI (User Interface) ensures that user is able to do his/her task without being lost, UX (User Experience) ensures that the design is intuitive and evokes the right emotions and empowers the user. User engagement happens when UI & UX work together."
@@ -205,7 +205,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/webapp"
             component={(props) => (
               <LinkPageDevelop
-              secondHeading="What is Web Application?"
+                secondHeading="What is Web Application?"
                 linktext=" A web application is a software or program which is accessible using any web browser."
                 linkphoto={niblink}
                 secondlinktext=" web application is application software that runs on a web server, unlike computer-based software programs that are run locally on the operating system of the device. Web applications are accessed by the user through a web browser with an active network connection."
@@ -218,7 +218,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/iosapp"
             component={(props) => (
               <LinkPageDevelop
-              secondHeading="What is iOS?"
+                secondHeading="What is iOS?"
                 linktext="When the product, websites deals with repetitive tasks, it's hard to keep users excited about it. That's where UI comes into play."
                 linkphoto={niblink}
                 secondlinktext="On a website, web or mobile app, humans constanly interact with multiple elements. While a good UI (User Interface) ensures that user is able to do his/her task without being lost, UX (User Experience) ensures that the design is intuitive and evokes the right emotions and empowers the user. User engagement happens when UI & UX work together."
@@ -231,7 +231,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/maintainandtest"
             component={(props) => (
               <LinkPageDevelop
-              secondHeading="What is Maintainance Testing ?"
+                secondHeading="What is Maintainance Testing ?"
                 linktext="Once a system is deployed it is in service for years and decades. During this time the system and its operational environment is often corrected, changed or extended. "
                 linkphoto={niblink}
                 secondlinktext="When any changes are made as part of maintenance, maintenance testing should be performed, both to evaluate the success with which the changes were made and to check for possible side-effects (e.g., regressions) in parts of the system that remain unchanged (which is usually most of the system)."
@@ -244,7 +244,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/uidev"
             component={(props) => (
               <LinkPageDevelop
-              secondHeading="What is UI development ?"
+                secondHeading="What is UI development ?"
                 linktext="A UI developer's role is to translate creative software design concepts and ideas into reality using front-end technology."
                 linkphoto={niblink}
                 secondlinktext="They understand the user interface design solution both in its practical intent and creative vision, and convert it into engineered softwares. A UI Developer is the bridge between presentation layer and the back-end layer, who understands both and creates a niche as the translational layer in between, so that both lives up to its full potential and are not compromised because of each other."
@@ -257,7 +257,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/api"
             component={(props) => (
               <LinkPageDevelop
-              secondHeading="What is API?"
+                secondHeading="What is API?"
                 linktext="An API integration is the connection between two or more applications, via their APIs, that lets those systems exchange data."
                 linkphoto={niblink}
                 secondlinktext="A set of subroutine definitions, protocols, and tools for building application software. In general terms, it is a set of clearly defined methods of communication between various software components."

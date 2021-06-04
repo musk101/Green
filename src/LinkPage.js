@@ -59,26 +59,26 @@ function LinkPage(props) {
           ></Grid>
         </>
         <Dreamtext
-        className="dream-text"
-        Dream1="We help you to turn"
-        Dream2="your ideas into your dream design."
-        text1link="/ui"
-        text2link="/ux"
-        text22link="/mockupdesign"
-        text3link="/graphicdesign"
-        text4link="/mockupdesign"
-        text5link="/logodesign"
-        text6link="/content"
-        text7link="/animations"
-        text1="UI DESIGN"
-        text2="UX DESIGN"
-        text3="GRAPHICS DESIGN"
-        text4="MATERIAL DESIGN"
-        text5="LOGO DESIGN"
-        text6="SOCIAL MEDIA CONTENTS"
-        text7="ANIMATIONS"
-        text22="MOCKUP DESIGN"
-      />
+          className="dream-text"
+          Dream1="We help you to turn"
+          Dream2="your ideas into your dream design."
+          text1link="/ui"
+          text2link="/ux"
+          text22link="/mockupdesign"
+          text3link="/graphicdesign"
+          text4link="/mockupdesign"
+          text5link="/logodesign"
+          text6link="/content"
+          text7link="/animations"
+          text1="UI DESIGN"
+          text2="UX DESIGN"
+          text3="GRAPHICS DESIGN"
+          text4="MATERIAL DESIGN"
+          text5="LOGO DESIGN"
+          text6="SOCIAL MEDIA CONTENTS"
+          text7="ANIMATIONS"
+          text22="MOCKUP DESIGN"
+        />
         <Footer />
       </>
     </div>
@@ -86,4 +86,3 @@ function LinkPage(props) {
 }
 
 export default LinkPage;
-

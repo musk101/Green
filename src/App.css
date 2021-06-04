@@ -135,8 +135,10 @@ a {
 	border-style: solid;
 	border-radius: 10px;
 	border-color: rgba(255,89,117,1);
+	
 
 }
 .lets_talk:hover {
 	background-color: #FF5975;
+	color: white;
   }
