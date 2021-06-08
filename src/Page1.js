@@ -9,7 +9,9 @@ import Text from "./Text.svg";
 import Fourth from "./Fourth.svg";
 import SecondDashboard from "./SecondDashboard.svg";
 import Third from "./Third.svg";
-import Client from "./Client.svg";
+import Client1 from "./Client1.svg";
+import Client2 from "./Client2.svg";
+import Client3  from "./Client3.svg";
 
 function Page1() {
   return (
@@ -25,7 +27,7 @@ function Page1() {
       />
       {/* //display is to render props  */}
 
-      <Testimony Clientimage={Client} />
+      <Testimony Clientimage1={Client1}  Clientimage2={Client2}  Clientimage3={Client3} />
       <CardHeading />
       <CardDashboardGrid />
       <Footer />

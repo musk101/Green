@@ -13,17 +13,17 @@ function Footer() {
         <FooterSmall />
       </div>
 
-      <Grid container className="footer">
-        <Grid item md={5}>
+      <Grid container className="footer" justify="space-between" >
+        <Grid item md={4}>
           <img
             src={footerImage}
             alt=""
-            width="600px"
-            height="350px"
+            width="600rem"
+            height="100%"
             className="img-footer"
           />
         </Grid>
-        <Grid item md={2} className="new">
+        <Grid item md={4} className="new">
           <h2>EXPLORE</h2>
           <Link to="/">ABOUT US</Link>
           <br />
@@ -33,7 +33,7 @@ function Footer() {
           <br />
           <Link to="/">BLOGS</Link>
         </Grid>
-        <Grid item md={2} className="new">
+        <Grid item md={4} className="new">
           <h2>SERVICES</h2>
           <Link to="/design">DESIGN</Link>
           <br />
@@ -42,11 +42,6 @@ function Footer() {
           <Link to="/market">BUSINESS</Link>
           <br />
         </Grid>
-        <Grid
-          item
-          xs={12}
-          style={{ backgroundColor: "#c4c4c4", color: "#FFFFFF" }}
-        ></Grid>
       </Grid>
     </div>
   );
