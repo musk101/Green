@@ -92,7 +92,7 @@ function Work() {
       </Grid>
       <Grid container className="testimony2">
         <Grid item xs={12} md={12}>
-          <Testimony Clientimage={testimonysmall} />
+          <Testimony Clientimage1={Client1}  Clientimage2={Client2}  Clientimage3={Client3} />
         </Grid>
       </Grid>
       <Footer />

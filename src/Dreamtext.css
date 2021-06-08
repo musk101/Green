@@ -21,21 +21,21 @@
     font-family: 'Blinker', sans-serif;
     font-weight: 800;
     font-size: 4vw;
-    padding-left: 8%;
+    padding-left: 10vmin;
 }
 .text-convert2
 {
     font-family: 'Blinker', sans-serif;
     font-weight: 800;
     font-size: 4vw;
-    padding-left: 8%;
+    padding-left: 10vmin;
 }
 .serve
 {
     font-family: 'Blinker', sans-serif;
     font-weight: 400;
     font-size: 2.5vw;
-    padding-left: 8%;
+    padding-left: 10vmin;
     color: #34c25e;
 }
 

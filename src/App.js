@@ -35,9 +35,9 @@ function App() {
           <li>
             <a href="/about">About</a>
           </li>
-          <li>
+          {/* <li>
             <img src={nightday} />
-          </li>
+          </li> */}
           <li>
             <a href="#" className="lets_talk">
               Let's Talk
