@@ -18,7 +18,7 @@ import ae from "./ae.svg";
 function App() {
   return (
     <div className="App">
-      <ScrollToTop smooth color="#34c25E" />
+      <ScrollToTop smooth color="#34c25E" src={nightday} />
       <header class="header">
         <h1 class="logo">
           <a href="#">
@@ -29,9 +29,16 @@ function App() {
           <li>
             <a href="/work">Work</a>
           </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
+          <div class="dropdown">
+    <button class="dropbtn">SERVICES 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/design">DESIGN</a>
+      <a href="/develop">DEVELOP</a>
+      <a href="/market">MARKET</a>
+    </div>
+  </div> 
           <li>
             <a href="/about">About</a>
           </li>
