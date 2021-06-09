@@ -46,7 +46,7 @@ function App() {
             <img src={nightday} />
           </li> */}
           <li>
-            <a href="#" className="lets_talk">
+            <a href="#" id="lets_talk">
               Let's Talk
             </a>
           </li>

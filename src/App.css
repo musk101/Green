@@ -98,7 +98,18 @@ ul {
   list-style: none;
 }
 
+#lets_talk
+{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: rgba(255,89,117,1);
+	
 
+}
+#lets_talk:hover {
+	background-color: #FF5975;
+	color: white;
+  }
 h2,
 h3,
 a {
@@ -176,16 +187,5 @@ a {
 	}
 
 }
-.lets_talk
-{
-	border-style: solid;
-	border-radius: 10px;
-	border-color: rgba(255,89,117,1);
-	
 
-}
-.lets_talk:hover {
-	background-color: #FF5975;
-	color: white;
-  }
  
