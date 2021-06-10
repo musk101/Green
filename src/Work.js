@@ -51,22 +51,25 @@ function Work() {
       <Grid container className="worksmall" spacing={3}>
         <Grid item md={12} className="rrd">
           <WorkSmall
+          title="Reliable Melbourne Accountants"
             worksmallimage={WorkSmall1}
-            worksmalltext="some text will come here very soon"
+            worksmalltext="tag line of company "
             cardcolor="#ff5975"
           />
         </Grid>
         <Grid item md={12} className="rrd" style={{ paddingTop: "10vw" }}>
           <WorkSmall
+          title="Completly Reliable Accountants"
             worksmallimage={WorkSmall2}
-            worksmalltext="some text will come here very soon"
+            worksmalltext="tag line of company "
             cardcolor="#ff5975"
           />
         </Grid>
         <Grid item md={12} className="rrd" style={{ paddingTop: "10vw" }}>
           <WorkSmall
+            title="Reliable Melbourne Accountants"
             worksmallimage={WorkSmall3}
-            worksmalltext="some text will come here very soon"
+            worksmalltext="tag line of company "
             cardcolor="#ff5975"
           />
         </Grid>

@@ -16,7 +16,7 @@ function Testimony(props) {
           <h1>What Clients Says?</h1>
         </Grid>
       </Grid>
-      <Slider dots Color={false} arrows={false} className="imajtopbox">
+      <Slider dots Color={false} arrows={false} className="imajtopbox" autoplay={true}>
         <Grid container style={{ backgroundColor: "green" }}>
           <Grid item xs={false} sm={12} md={12}>
             <img className="imaj" src={Clientimage1} alt="" />

@@ -29,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function WorkSmall(props) {
   const worksmallimage=props.worksmallimage;
+  const title=props.title;
   const worksmalltext=props.worksmalltext;
   const cardcolor=props.cardcolor;
   const classes = useStyles();
@@ -46,7 +47,7 @@ export default function WorkSmall(props) {
         }} 
         
         
-        title="Shrimp and Chorizo Paella"
+        title={title}
         // subheader="September 14, 2016"
       />
       <CardMedia
