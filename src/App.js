@@ -27,6 +27,9 @@ function App() {
           </a>
         </h1>
         <ul class="main-nav">
+        <li>
+            <a href="/">HOME</a>
+          </li>
           <li>
             <a href="/work">Work</a>
           </li>

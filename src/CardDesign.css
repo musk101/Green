@@ -10,6 +10,41 @@ img.ok {
   opacity: 1;
   margin-left: 25%;
 }
+.thumbnail {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  overflow: hidden
+}
+.thumbnail > img {
+  max-width: 100%;
+  height: 100%;
+  transition: all 0.3s ease
+}
+
+.thumbnail div {
+ position: absolute;
+ background: #1c8463;
+ color: #fff;
+ width: 100%;
+ height: 100%;
+ opacity: 0;
+ transition: all 0.3s ease;
+ line-height: 300px;
+ text-align: center;
+ font-size: 30px;
+ z-index: 2
+ 
+}
+
+.thumbnail:hover > img {
+ transform: scale(1.3)
+}
+
+.thumbnail:hover > div {
+ opacity: 1
+}
 #small-grid
 {
  margin-left: "180px";

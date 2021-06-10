@@ -24,6 +24,7 @@ const useStyles = makeStyles({
 
 export default function OutlinedCard(props) {
   const image = props.src;
+  const hovertext = props.hovertext;
   const classes = useStyles();
   return (
     <Card
@@ -41,7 +42,10 @@ export default function OutlinedCard(props) {
       }}
     >
       <CardContent>
+      <div class="thumbnail">
+    <div>{hovertext}</div>
         <img src={image} className="ok" alt="" height="50%" width="50%" />
+        </div>
       </CardContent>
     </Card>
   );

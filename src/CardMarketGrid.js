@@ -31,23 +31,23 @@ export default function CardsGrid() {
         justify="center"
       >
         <Grid item xs={6} sm={3} md={3}>
-          <CardDesign src={googleanalytics}/>
+          <CardDesign src={googleanalytics} hovertext="Google Analytics"/>
         </Grid>
         <Grid item xs={6} sm={3} md={3}>
-        <CardDesign src={googleanalytics}/>
+        <CardDesign src={googleanalytics} hovertext="Google Analytics"/>
         </Grid>
         <Grid item xs={6} sm={3} md={3}>
-        <CardDesign src={clienttalk}/>
+        <CardDesign src={clienttalk} hovertext="Social Media"/>
         </Grid>
        
         <Grid item xs={6} sm={3} md={3}>
-        <CardDesign src={create}/>
+        <CardDesign src={create} hovertext="Creative Ideas"/>
         </Grid>
         <Grid item xs={6} sm={3} md={3}>
-        <CardDesign src={clienttalk}/>
+        <CardDesign src={clienttalk} hovertext="Brand Designs"/>
         </Grid>
         <Grid item xs={6} sm={3} md={3}>
-        <CardDesign src={googleads}/>
+        <CardDesign src={googleads} hovertext="Google Ads"/>
         </Grid>
        
         
@@ -58,7 +58,7 @@ export default function CardsGrid() {
         <CardDesign src={clienttalk}/>
         </Grid>
         <Grid item xs={6} sm={3} md={3}>
-        <CardDesign src={hubspot}/>
+        <CardDesign src={hubspot} hovertext="Hub Spot"/>
         </Grid>
       </Grid>
       </>
