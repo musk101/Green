@@ -8,6 +8,8 @@ import Collapse from '@material-ui/core/Collapse';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import './WorkSmall.css'
+import Testimony from "./Testimony";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,7 +39,7 @@ export default function WorkSmall(props) {
   };
 
   return (
-  
+  <>
     <Card className={classes.root} id="cardss" style={{backgroundColor:cardcolor}}>
       <CardHeader classes={{
           title: classes.root,
@@ -59,7 +61,9 @@ export default function WorkSmall(props) {
           
         </Typography>
       </CardContent>
-      
-    </Card>
+      </Card>
+          
+</>
+  
   );
 }

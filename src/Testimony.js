@@ -12,7 +12,7 @@ function Testimony(props) {
   return (
     <>
       <Grid container style={{ color: "#1c8463" }} className="imajtop">
-        <Grid item xs={false} sm={12} md={12} className="whatsay">
+        <Grid item xs={12} sm={12} md={12} className="whatsay">
           <h1>What Clients Says?</h1>
         </Grid>
       </Grid>

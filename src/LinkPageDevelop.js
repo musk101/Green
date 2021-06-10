@@ -22,20 +22,28 @@ function LinkPage(props) {
     <div>
       <>
         <>
+        <Grid container className="list-service">
+            <Grid item xs={12} sm={4} md={4}>
+              <p className="heading">{props.topHeading}</p>
+            </Grid>
+          </Grid>
           <Grid container spacing={2} className={classes.gridContainer}>
             <Grid item xs={12} sm={7} md={6}>
               <p className="op">{props.linktext}</p>
             </Grid>
             <Grid item xs={null} sm={5} md={6} className="linkphototest">
-              <img src={props.linkphoto} alt="" height="300px" width="300px" />
+              <img src={props.linkphoto} alt="" height="350px" width="600px" />
             </Grid>
           </Grid>
           <Grid
             container
-            spacing={10}
+            spacing={1}
             className={classes.gridContainer}
-            justify="center"
+           
           >
+            <Grid item xs={12} sm={4} md={12}>
+              <p className="heading2">{props.secondHeading}</p>
+            </Grid>
             <Grid item xs={12} sm={12} md={12}>
               <p className="op2">{props.secondlinktext}</p>
             </Grid>
@@ -48,6 +56,9 @@ function LinkPage(props) {
           ></Grid>
         </>
         <Dreamtext
+         className="dream-text"
+         Dream1="We help you to turn"
+         Dream2="your ideas into your dream design."
           text1link="/webdev"
           text2link="/androidapp"
           text3link="/webapp"

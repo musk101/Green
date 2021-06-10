@@ -13,6 +13,9 @@ import WorkSmall3 from "./WorkSmall3.svg";
 import Client1 from "./Client1.svg";
 import Client2 from "./Client2.svg";
 import Client3 from "./Client3.svg";
+import ClientSmall1 from "./ClientSmall1.svg";
+import ClientSmall2 from "./ClientSmall2.svg";
+import ClientSmall3 from "./ClientSmall3.svg";
 import Footer from "./Footer";
 import testimonysmall from "./testimonySmall.svg";
 
@@ -68,6 +71,11 @@ function Work() {
           />
         </Grid>
       </Grid>
+      <Grid container className="testimony2">
+        <Grid item xs={12} md={12}>
+          <Testimony Clientimage1={ClientSmall1}  Clientimage2={ClientSmall2}  Clientimage3={ClientSmall3} />
+        </Grid>
+      </Grid>
 
       <Grid container className="workLaptopView">
         <Grid item md={12}>
@@ -89,11 +97,6 @@ function Work() {
           <Testimony Clientimage1={Client1} Clientimage2={Client2} Clientimage3={Client3}  />
         </Grid>
         
-      </Grid>
-      <Grid container className="testimony2">
-        <Grid item xs={12} md={12}>
-          <Testimony Clientimage1={Client1}  Clientimage2={Client2}  Clientimage3={Client3} />
-        </Grid>
       </Grid>
       <Footer />
     </div>

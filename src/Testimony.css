@@ -13,16 +13,8 @@
   padding-top: 7%;
 }
 @media all and (max-width: 770px) {
-    .imaj { 
-      display: none !important;
-    }
-    .imajtop
-    {
-        display: none !important;
-    }
-    .imajtopbox
-    {
-        display: none !important;
+    .whatsay { 
+      font-size:0.75rem;
     }
   }
   
