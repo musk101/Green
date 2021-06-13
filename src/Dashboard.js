@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import SmallDashboard from "./SmallDashboard";
 import BusinessButton from "./BusinessButton.svg";
 import DesignButton from "./DesignButton.svg";
+import { Link } from 'react-router-dom'
 import DevelopButton from "./DevelopButton.svg"
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,8 +28,10 @@ function Dashboard(props) {
   return (
     <div>
       <Grid container className="reverse-items">
+      <Link to="/market" />
       <Grid item sm={6} md={4}>
-          <img className="button1" src={BusinessButton} alt="" />
+    
+          <img className="button1" src={BusinessButton} alt=""/>
         </Grid>
         <Grid item sm={6} md={4}>
           <img className="button1" src={DesignButton} alt="" />

@@ -5,8 +5,10 @@ import Page2 from "./Page2";
 import Page3 from "./Page3";
 import Page4 from "./Page4";
 import Form from "./Form";
+import LetsTalk from "./LetsTalk";
 import ScrollToTopBtn from "./ScrollToTop";
 import niblink from "./niblink.svg";
+import linkb from './linkb.svg';
 import PinkSettings from './PinkSettings.svg'
 import LinkPage from "./LinkPage";
 import LinkPageDevelop from "./LinkPageDevelop";
@@ -51,7 +53,7 @@ function App() {
             <img src={nightday} />
           </li> */}
           <li>
-            <a href="#" id="lets_talk">
+            <a href="/letstalk" id="lets_talk">
               Let's Talk
             </a>
           </li>
@@ -65,6 +67,7 @@ function App() {
           <Route exact path="/market" component={Page4} />
           <Route exact path="/about" component={Aboutus} />
           <Route exact path="/form" component={Form} />
+          <Route exact path="/letstalk" component={LetsTalk} />
           <Route
             exact
             path="/ui"
@@ -303,8 +306,10 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/content"
             component={(props) => (
               <LinkPage
+              topHeading="Content Writing"
+              secondHeading="What is Content Writing?"
                 linktext="engaged in the business of giving expert advice to people working in a professional or technical field."
-                linkphoto={niblink}
+                linkphoto={linkb}
                 secondlinktext="Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes. It can include writing blog posts and articles, scripts for videos and podcasts, as well as content for specific platforms, such as tweetstorms on Twitter or text posts on Reddit."
                 {...props}
               />
@@ -316,8 +321,10 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/consulting"
             component={(props) => (
               <LinkPage
+              topHeading="Consulting"
+              secondHeading="What is Consulting ?"
                 linktext="engaged in the business of giving expert advice to people working in a professional or technical field."
-                linkphoto={niblink}
+                linkphoto={linkb}
                 secondlinktext="In a nutshell, consultants provide expert opinions, analysis, and recommendations to organizations or individuals, based on their own expertise. They're essentially fixers, serving as objective troubleshooters, and providing strategies to prevent problems and improve performance."
                 {...props}
               />
@@ -329,8 +336,10 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/branding"
             component={(props) => (
               <LinkPage
+              topHeading="Branding"
+              secondHeading="What is Branding?"
                 linktext="Branding is endowing products and services with the power of a brand."
-                linkphoto={niblink}
+                linkphoto={linkb}
                 secondlinktext="The practice of creating a name, symbol or design that identifies and differentiates a product from other products. An effective brand strategy gives you a major edge in increasingly competitive markets."
                 {...props}
               />

@@ -32,7 +32,9 @@ function LinkPage(props) {
               <p className="op">{props.linktext}</p>
             </Grid>
             <Grid item xs={null} sm={5} md={6} className="linkphototest">
-              <img src={props.linkphoto} alt="" height="350px" width="600px" />
+              <img src={props.linkphoto} alt="" height="350px"
+                width="600px"
+                style={{ paddingLeft: "200px", marginTop: "-70px" }} />
             </Grid>
           </Grid>
           <Grid

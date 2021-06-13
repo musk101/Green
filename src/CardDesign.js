@@ -35,9 +35,9 @@ export default function OutlinedCard(props) {
         boxShadow: "none",
         border: "none",
         borderRadius: "0px",
-        marginBottom: "1rem",
-        paddingTop: "18px",
-        paddingBottom: "18px",
+    paddingTop: "2px",
+        paddingBottom: "5px",
+       
         
       }}
     >
