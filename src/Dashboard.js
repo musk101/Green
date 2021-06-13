@@ -2,6 +2,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import SmallDashboard from "./SmallDashboard";
+import BusinessButton from "./BusinessButton.svg";
+import DesignButton from "./DesignButton.svg";
+import DevelopButton from "./DevelopButton.svg"
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -23,6 +26,17 @@ function Dashboard(props) {
   const classes = useStyles();
   return (
     <div>
+      <Grid container className="reverse-items">
+      <Grid item sm={6} md={4}>
+          <img className="button1" src={BusinessButton} alt="" />
+        </Grid>
+        <Grid item sm={6} md={4}>
+          <img className="button1" src={DesignButton} alt="" />
+        </Grid>
+        <Grid item sm={6} md={4}>
+          <img className="button1" src={DevelopButton} alt="" />
+        </Grid>
+      </Grid>
       <Grid container className="reverse-items">
         <Grid item xs={12} sm={6} md={6}>
           <img className="saly" src={dashimage} alt="" />
