@@ -20,6 +20,13 @@ padding-top: 2vw;
     .worksmall { 
       display: none !important;
     }
+     #design-develop-buttons
+{
+  width:50%;
+  object-fit: contain;
+ padding-left: 50%;
+
+} 
   }
   .worksmall 
   {

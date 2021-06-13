@@ -62,11 +62,11 @@ function DesignPlant(props) {
       </Grid>
       <Grid
         container
-        className="worksmall"
+       
         id="design-develop-buttons"
         style={{ paddingTop: "50px" }}
       >
-        <Grid item xs={6} sm={4} md={4}>
+        <Grid item xs={7} sm={7} md={6} >
           <img
             className="designbutton"
             src={DesignButton}
@@ -75,14 +75,10 @@ function DesignPlant(props) {
             width="200rem"
           />
         </Grid>
-      </Grid>
-      <Grid
-        container
-        className="worksmall"
-        id="design-develop-buttons"
-        style={{ paddingTop: "5px" }}
-      >
-        <Grid item xs={6} sm={4} md={4} id="design-develop-buttons">
+     
+      
+        <Grid item xs={7} sm={4} md={6}
+       >
           <img
             className="developbutton"
             src={DevelopButton}
@@ -91,7 +87,8 @@ function DesignPlant(props) {
             width="200rem"
           />
         </Grid>
-      </Grid>
+        </Grid>
+      
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Page2 from "./Page2";
 import Page3 from "./Page3";
 import Page4 from "./Page4";
 import Form from "./Form";
+import ScrollToTopBtn from "./ScrollToTop";
 import niblink from "./niblink.svg";
 import PinkSettings from './PinkSettings.svg'
 import LinkPage from "./LinkPage";
@@ -19,7 +20,7 @@ import ae from "./ae.svg";
 function App() {
   return (
     <div className="App">
-      <ScrollToTop smooth color="#34c25E" src={nightday} />
+       <ScrollToTopBtn />
       <header class="header">
         <h1 class="logo">
           <a href="/">
