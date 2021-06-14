@@ -1,6 +1,6 @@
 .App {
   
-  background-color:#F1ECEC;
+  background-color:#F5F6F1;
   overflow: hidden;
 }
 .dropdown {
@@ -98,13 +98,12 @@ ul {
   list-style: none;
 }
 
-#lets_talk
-{
-	border-style: solid;
+#lets_talk{
+	padding-left: 25px;
+	padding-right: 25px;
 	border-radius: 10px;
-	border-color: rgba(255,89,117,1);
-	
-
+	border: 3px solid rgba(255,89,117,1);
+	font-weight: 900;
 }
 #lets_talk:hover {
 	background-color: #FF5975;
@@ -147,13 +146,13 @@ a {
 .main-nav a:hover {
 	color: black;
 }
-.header {
+/* .header {
 	padding-top: .1rem;
 	padding-bottom: .1rem;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 1px;
-}
+} */
 .scroll-to-top {
 	position: fixed;
 	bottom: 7.5rem;
@@ -179,7 +178,7 @@ a {
 
 
 
-
+/* 
 @media (min-width: 769px) {
 	.header,
 	.main-nav {
@@ -205,4 +204,101 @@ a {
 
 }
 
- 
+  */
+  @media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        left: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 100px;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+.navbar{
+	opacity: 5;
+}
+.bg-nav{
+	background-color: #F5F6F1;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("toggle-icon.png");
+}
+
+
+
+.nav-link{
+ margin-right: 50px;
+}
+@media (max-width: 992px) {
+	.nav-link{
+		
+		margin-bottom: 20px;
+	   }
+}
+
+
+.toogle-btn-li{
+	margin-top: 15px;
+	margin-left: 50vw
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: #F5F6F1;;
+}
+
+.navbar h2{
+	color: #FF5975;
+}
+.nav-sidebar-text{
+	font-weight: 900;
+}
+
+.lets_talk_sidebar{
+	border-radius: 10px;
+	border: 3px solid rgba(255,89,117,1);
+	font-weight: 900;
+}
+.lets-talk-sidebar-div{
+position: absolute;
+right: 12px;
+bottom:   0;
+}
+
+.side-nav-email{
+	font-size: 14px;
+}
+.services-text{
+	font-weight: 700;
+}
+.mobile-nav-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background:#001B127A;
+    overflow: hidden;
+    display: none;
+}
+.navbar-collapse{
+	z-index: 9999;
+}

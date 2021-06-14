@@ -4,7 +4,7 @@ import CardDesign from "./CardDesign";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import xd from "./adobe-xd 1.svg";
-import figma from "./Figma-1 1.svg";
+import figma from "./figma-1 1.svg";
 import ai from "./illustrator.svg";
 import id from "./indesign.svg";
 import ae from "./ae.svg";

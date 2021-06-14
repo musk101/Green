@@ -1,3 +1,5 @@
+import React,{useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
 import Page1 from "./Page1";
@@ -18,47 +20,22 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Logo from "./Logo.svg";
 import Work from "./Work";
 import ae from "./ae.svg";
+import NavSection from './Nav';
 
-function App() {
+
+
+function App()
+{
+  
+
   return (
     <div className="App">
        <ScrollToTopBtn />
-      <header class="header">
-        <h1 class="logo">
-          <a href="/">
-            <img src={Logo} alt="" />
-          </a>
-        </h1>
-        <ul class="main-nav">
-        <li>
-            <a href="/">HOME</a>
-          </li>
-          <li>
-            <a href="/work">Work</a>
-          </li>
-          <div class="dropdown">
-    <button class="dropbtn">SERVICES 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="/design">DESIGN</a>
-      <a href="/develop">DEVELOP</a>
-      <a href="/market">MARKET</a>
-    </div>
-  </div> 
-          <li>
-            <a href="/about">About</a>
-          </li>
-          {/* <li>
-            <img src={nightday} />
-          </li> */}
-          <li>
-            <a href="/letstalk" id="lets_talk">
-              Let's Talk
-            </a>
-          </li>
-        </ul>
-      </header>
+      <NavSection />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Router>
         <Switch>
           <Route exact path="/" component={Page1} />
