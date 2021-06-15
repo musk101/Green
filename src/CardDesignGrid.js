@@ -16,11 +16,10 @@ const useStyles = makeStyles({
     paddingRight: "20px",
     width: "70%",
     marginLeft: "15%",
-    '@media(minWidth: 770px)' : {
-width: "90%"
-    }
-   
-  }
+    "@media(minWidth: 770px)": {
+      width: "90%",
+    },
+  },
 });
 
 export default function CardsGrid() {

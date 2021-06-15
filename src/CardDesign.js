@@ -39,8 +39,8 @@ export default function OutlinedCard(props) {
         paddingBottom: "5px",
       }}
     >
-      <CardContent>
-        <div class="thumbnail">
+      <CardContent className="card-content">
+        <div className="thumbnail">
           <div>{hovertext}</div>
           <img src={image} className="ok" alt="" height="50%" width="50%" />
         </div>
