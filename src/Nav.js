@@ -44,6 +44,11 @@ const [servicesNav, SetServicesNav] = useState( false );
       SetServicesNav(false)
     }
   }
+  
+  const servicesMenuClose = () =>
+  {
+    SetServicesNav(false)
+  } 
 
   return (
       <>
@@ -188,13 +193,13 @@ const [servicesNav, SetServicesNav] = useState( false );
         <Grid container className="reverse-items nav-services">
           <Link to="/market" />
           <Grid item sm={6} md={4}>
-            <img className="button1" src={BusinessButton} alt=""  />
+              <Link to="/market"><img className="button1" src={BusinessButton} alt="" onClick={servicesMenuClose}/></Link>
         </Grid>
         <Grid item sm={6} md={4}>
-          <img className="button1" src={DesignButton} alt="" />
+        <Link to="/design"><img className="button1" src={DesignButton} alt="" onClick={servicesMenuClose}/></Link>
         </Grid>
         <Grid item sm={6} md={4}>
-          <img className="button1" src={DevelopButton} alt="" />
+          <Link to="/develop"><img className="button1" src={DevelopButton} alt="" onClick={servicesMenuClose}/></Link>
         </Grid>
           </Grid>
           </div>
