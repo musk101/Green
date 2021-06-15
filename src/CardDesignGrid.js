@@ -29,22 +29,22 @@ export default function CardsGrid() {
     <>
       <Grid container spacing={1} className={classes.gridContainer}>
         <Grid item xs={6} sm={6} md={4}>
-          <CardDesign src={xd} hovertext="Adobe XD"/>
+          <CardDesign src={xd} hovertext="Adobe XD" />
         </Grid>
         <Grid item xs={6} sm={6} md={4}>
-          <CardDesign src={figma} hovertext="Figma"/>
+          <CardDesign src={figma} hovertext="Figma" />
         </Grid>
         <Grid item xs={6} sm={6} md={4}>
           <CardDesign src={ai} hovertext="Adobe Illustrator" />
         </Grid>
         <Grid item xs={6} sm={6} md={4}>
-          <CardDesign src={id} hovertext="In Design"/>
+          <CardDesign src={id} hovertext="In Design" />
         </Grid>
         <Grid item xs={6} sm={6} md={4}>
-          <CardDesign src={ae} hovertext="Adobe XD"/>
+          <CardDesign src={ae} hovertext="Adobe XD" />
         </Grid>
         <Grid item xs={6} sm={6} md={4}>
-          <CardDesign src={ps} hovertext="PhotoShop"/>
+          <CardDesign src={ps} hovertext="PhotoShop" />
         </Grid>
       </Grid>
     </> //react elements must be enclosed in a fragment hencce this

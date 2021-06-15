@@ -15,7 +15,7 @@ img.ok {
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
-  overflow: hidden
+  /* overflow: hidden; */
 }
 .thumbnail > img {
   max-width: 100%;
@@ -31,12 +31,23 @@ img.ok {
  height: 100%;
  opacity: 0;
  transition: all 0.3s ease;
- line-height: 300px;
  text-align: center;
  font-size: 30px;
- z-index: 2
- 
+ z-index: 2;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .thumbnail div {
+    font-size: 15px;
+
+  }
+}
+
 
 .thumbnail:hover > img {
  transform: scale(1.3)
