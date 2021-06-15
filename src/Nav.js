@@ -51,16 +51,14 @@ const [servicesNav, SetServicesNav] = useState( false );
   } 
 
   return (
-      <>
+    <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-nav">
         <Container>
-         
           <span className="navbar-brand">
-          <Link to="/">
+            <Link to="/">
               <img src={Logo} alt="" />
-              </Link>
-            </span>
-         
+            </Link>
+          </span>
 
           <button
             className="navbar-toggler"
@@ -97,58 +95,60 @@ const [servicesNav, SetServicesNav] = useState( false );
 
               {width > 1000 ? (
                 <>
-                  
-                    <li className="nav-item active">
+                  <li className="nav-item active">
                     <Link to="/work">
-                    <span className="nav-link">Work</span>
+                      <span className="nav-link">Work</span>
                     </Link>
-                    </li>
-                
-                 
-                    <li className="nav-item">
-                    
-                      <span className="nav-link" onClick={isServicesOpen}>Services</span>
-                    
-                    </li>
+                  </li>
+
+                  <li className="nav-item">
                   
-                 
-                    <li className="nav-item">
-                    <Link to="/services">
+                    <span className="nav-link" onClick={isServicesOpen}>
+                      Services
+                      </span>
+                      
+                  </li>
+
+                  <li className="nav-item">
+                    <Link to="/about">
                       <span className="nav-link">About</span>
-                      </Link>
-                    </li>
-                 
-                 
+                    </Link>
+                  </li>
+
                   <li>
-                  <Link to="/letstalk">
+                    <Link to="/letstalk">
                       <span
                         className="nav-link text-center text-uppercase"
                         id="lets_talk"
                       >
                         Let's Talk
                       </span>
-                       </Link>
-                    </li>
-                 
+                    </Link>
+                  </li>
                 </>
               ) : (
                 <>
                   <span className="mt-5"></span>
                   <h2 className="services-text mx-4">SERVICES</h2>
                   <li className="nav-item active">
-                    <a className="nav-link">
-                        <img src={DesignButton} className="img-fluid"/>
-                    </a>
+                    <span className="nav-link">
+                      <Link to="/market">
+                        <img src={DesignButton} className="img-fluid" />
+                      </Link>
+                    </span>
                   </li>
                   <li className="nav-item">
-                    <span className="nav-link" href="#">
+                      <Link to="/develop">
+                        <span className="nav-link">
                       <img src={DevelopButton} className="img-fluid" />
-                    </span>
+                    </span></Link>
                   </li>
-                  <li className="nav-item">
-                    <span className="nav-link" href="#">
+                    <li className="nav-item">
+                    <Link to="/design">
+                    <span className="nav-link">
                       <img src={BusinessButton} className="img-fluid" />
-                    </span>
+                        </span>
+                        </Link>
                   </li>
                   <Link to="/work">
                     <li className="nav-item  nav-sidebar-text">
@@ -190,22 +190,44 @@ const [servicesNav, SetServicesNav] = useState( false );
       {/* services menu on desktop */}
       {servicesNav === true ? (
         <div className="nav-serices-menu">
-        <Grid container className="reverse-items nav-services">
-          <Link to="/market" />
-          <Grid item sm={6} md={4}>
-              <Link to="/market"><img className="button1" src={BusinessButton} alt="" onClick={servicesMenuClose}/></Link>
-        </Grid>
-        <Grid item sm={6} md={4}>
-        <Link to="/design"><img className="button1" src={DesignButton} alt="" onClick={servicesMenuClose}/></Link>
-        </Grid>
-        <Grid item sm={6} md={4}>
-          <Link to="/develop"><img className="button1" src={DevelopButton} alt="" onClick={servicesMenuClose}/></Link>
-        </Grid>
+          <Grid container className="reverse-items nav-services">
+            <Link to="/market" />
+            <Grid item sm={6} md={4}>
+              <Link to="/market">
+                <img
+                  className="button1"
+                  src={BusinessButton}
+                  alt=""
+                  onClick={servicesMenuClose}
+                />
+              </Link>
+            </Grid>
+            <Grid item sm={6} md={4}>
+              <Link to="/design">
+                <img
+                  className="button1"
+                  src={DesignButton}
+                  alt=""
+                  onClick={servicesMenuClose}
+                />
+              </Link>
+            </Grid>
+            <Grid item sm={6} md={4}>
+              <Link to="/develop">
+                <img
+                  className="button1"
+                  src={DevelopButton}
+                  alt=""
+                  onClick={servicesMenuClose}
+                />
+              </Link>
+            </Grid>
           </Grid>
-          </div>
-        ) : ""}
-        
-      </>
+        </div>
+      ) : (
+        ""
+      )}
+    </>
   );
  
 }
