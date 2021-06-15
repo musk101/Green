@@ -132,7 +132,7 @@ const [servicesNav, SetServicesNav] = useState( false );
                   <h2 className="services-text mx-4">SERVICES</h2>
                   <li className="nav-item active">
                     <span className="nav-link">
-                      <Link to="/market">
+                      <Link to="/design">
                         <img src={DesignButton} className="img-fluid" />
                       </Link>
                     </span>
@@ -144,7 +144,7 @@ const [servicesNav, SetServicesNav] = useState( false );
                     </span></Link>
                   </li>
                     <li className="nav-item">
-                    <Link to="/design">
+                    <Link to="/market">
                     <span className="nav-link">
                       <img src={BusinessButton} className="img-fluid" />
                         </span>
