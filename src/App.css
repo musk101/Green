@@ -314,6 +314,7 @@ bottom:   0;
 .nav-serices-menu{
 	position: fixed;
 	background-color: #F5F6F1;
-	box-shadow: 5px 10px 18px rgb(223, 135, 135);
+	box-shadow: 5px 10px 18px rgb(233, 220, 220);
 	z-index: 100;
 }
+
