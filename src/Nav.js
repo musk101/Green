@@ -7,11 +7,15 @@ import BusinessButton from "./BusinessButton.svg";
 import Logo from "./Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import Grid from "@material-ui/core/Grid";
 
-export default function NavSection(){
+
+export default function NavSection()
+{
+  
 const [backgroundBlurState, setBackgroundBlurState] = useState(false)
 const [width, setWidth] = useState(1020);
-console.log(width)
+const [servicesNav, SetServicesNav] = useState( false );
   
 
   useEffect(() => {
@@ -30,121 +34,173 @@ console.log(width)
     setBackgroundBlurState(false)
   };
 
-    return (
+  const isServicesOpen = () =>
+  {
+    if ( servicesNav == false )
+    {
+      SetServicesNav(true)
+    } else
+    {
+      SetServicesNav(false)
+    }
+  }
+
+  return (
+      <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-nav">
-          
-      <Container>
-      <Link to="/"><span className="navbar-brand">
-          <img src={Logo} alt="" />
-        </span></Link>
+        <Container>
+         
+          <span className="navbar-brand">
+          <Link to="/">
+              <img src={Logo} alt="" />
+              </Link>
+            </span>
+         
 
-        <button
-          className="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          onClick={backgroundBlur}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse bg-nav justify-content-end"
-          id="navbarCollapse"
-        >
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <button
-                className="navbar-toggler toogle-btn-li"
-                data-toggle="collapse"
-                data-target="#navbarCollapse"
-                aria-controls="navbarCollapse"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                onClick={removeBackgroundBlur}
-              >
-                <span className="cross">
-                  {" "}
-                  <FontAwesomeIcon icon={faTimes} size="lg" />
-                </span>
-              </button>
-            </li>
+          <button
+            className="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={backgroundBlur}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className="collapse navbar-collapse bg-nav justify-content-end"
+            id="navbarCollapse"
+          >
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item">
+                <button
+                  className="navbar-toggler toogle-btn-li"
+                  data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
+                >
+                  <span className="cross">
+                    {" "}
+                    <FontAwesomeIcon icon={faTimes} size="lg" />
+                  </span>
+                </button>
+              </li>
 
-            {width > 1000 ? (
-              <>
-                <Link to="/work"><li className="nav-item active">
-                  <span className="nav-link">
-                    Work
-                  </span>
-                </li></Link>
-                <Link to="/services"><li className="nav-item">
-                  <span className="nav-link" >
-                    Services
-                  </span>
-                </li></Link>
-                <Link to="/services"><li className="nav-item">
-                  <span className="nav-link">
-                    About
-                  </span>
-                </li></Link>
-                <Link to="/letstalk"><li>
-                  <span
-                    className="nav-link text-center text-uppercase"
-                    href="/letstalk"
-                    id="lets_talk"
-                  >
-                    Let's Talk
-                  </span>
-                </li></Link>
-              </>
-            ) : (
-              <>
-                <span className="mt-5"></span>
-                <h2 className="services-text mx-4">SERVICES</h2>
-                <li className="nav-item active">
-                  <a className="nav-link" href="#">
-                    <img src={DesignButton} className="img-fluid" />
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <span className="nav-link" href="#">
-                    <img src={DevelopButton} className="img-fluid" />
-                  </span>
-                </li>
-                <li className="nav-item">
-                  <span className="nav-link" href="#">
-                    <img src={BusinessButton} className="img-fluid" />
-                  </span>
-                </li>
-                <Link to="/work"><li className="nav-item  nav-sidebar-text">
-                  <span className="mx-4" href="#">
-                    WORK
-                  </span>
-                </li></Link>
-                <Link to="/about"><li className="nav-item nav-sidebar-text mt-4">
-                  <span className="mx-4" href="#">
-                    ABOUT
-                  </span>
-                </li></Link>
+              {width > 1000 ? (
+                <>
+                  
+                    <li className="nav-item active">
+                    <Link to="/work">
+                    <span className="nav-link">Work</span>
+                    </Link>
+                    </li>
+                
+                 
+                    <li className="nav-item">
+                    
+                      <span className="nav-link" onClick={isServicesOpen}>Services</span>
+                    
+                    </li>
+                  
+                 
+                    <li className="nav-item">
+                    <Link to="/services">
+                      <span className="nav-link">About</span>
+                      </Link>
+                    </li>
+                 
+                 
+                  <li>
+                  <Link to="/letstalk">
+                      <span
+                        className="nav-link text-center text-uppercase"
+                        id="lets_talk"
+                      >
+                        Let's Talk
+                      </span>
+                       </Link>
+                    </li>
+                 
+                </>
+              ) : (
+                <>
+                  <span className="mt-5"></span>
+                  <h2 className="services-text mx-4">SERVICES</h2>
+                  <li className="nav-item active">
+                    <a className="nav-link">
+                        <img src={DesignButton} className="img-fluid"/>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <span className="nav-link" href="#">
+                      <img src={DevelopButton} className="img-fluid" />
+                    </span>
+                  </li>
+                  <li className="nav-item">
+                    <span className="nav-link" href="#">
+                      <img src={BusinessButton} className="img-fluid" />
+                    </span>
+                  </li>
+                  <Link to="/work">
+                    <li className="nav-item  nav-sidebar-text">
+                      <span className="mx-4" href="#">
+                        WORK
+                      </span>
+                    </li>
+                  </Link>
+                  <Link to="/about">
+                    <li className="nav-item nav-sidebar-text mt-4">
+                      <span className="mx-4" href="#">
+                        ABOUT
+                      </span>
+                    </li>
+                  </Link>
 
-                <li className="lets-talk-sidebar-div mt-4">
-                  <span className="side-nav-email">contact@alpharule.in</span>
-                  <span
-                    className="nav-link text-center text-uppercase"
-                    href="/letstalk"
-                    id="lets_talk"
-                  >
-                    Let's Talk
-                  </span>
-                </li>
-              </>
-            )}
-          </ul>
-        </div>
-            </Container>
-            {backgroundBlurState === true ? (<div className="mobile-nav-overly" style={{display: "block"}}></div>) : ""}
+                  <li className="lets-talk-sidebar-div mt-4">
+                    <span className="side-nav-email">contact@alpharule.in</span>
+                    <span
+                      className="nav-link text-center text-uppercase"
+                      href="/letstalk"
+                      id="lets_talk"
+                    >
+                      Let's Talk
+                    </span>
+                  </li>
+                </>
+              )}
+            </ul>
+          </div>
+        </Container>
+        {backgroundBlurState === true ? (
+          <div className="mobile-nav-overly" style={{ display: "block" }}></div>
+        ) : (
+          ""
+        )}
       </nav>
-      
+
+      {/* services menu on desktop */}
+      {servicesNav === true ? (
+        <div className="nav-serices-menu">
+        <Grid container className="reverse-items nav-services">
+          <Link to="/market" />
+          <Grid item sm={6} md={4}>
+            <img className="button1" src={BusinessButton} alt=""  />
+        </Grid>
+        <Grid item sm={6} md={4}>
+          <img className="button1" src={DesignButton} alt="" />
+        </Grid>
+        <Grid item sm={6} md={4}>
+          <img className="button1" src={DevelopButton} alt="" />
+        </Grid>
+          </Grid>
+          </div>
+        ) : ""}
+        
+      </>
   );
+ 
 }

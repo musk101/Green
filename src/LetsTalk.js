@@ -4,7 +4,6 @@ import Footer from './Footer'
 import contact from './contact.svg'
 import TextField from '@material-ui/core/TextField';
 // import helpyou from './helpyou.svg'
-import { Link } from "react-router-dom";
 import "./Dreamtext.css";
 function LetsTalk() {
   

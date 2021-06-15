@@ -13,11 +13,12 @@ import Client1 from "./Client1.svg";
 import Client2 from "./Client2.svg";
 import Client3  from "./Client3.svg";
 
+
 function Page1() {
   return (
     <div>
       <Dashboard
-      className="saly1"
+        className="saly1"
         dashimage={Saly}
         dashimage2={Text}
         seconddashimage={SecondDashboard}
@@ -27,7 +28,11 @@ function Page1() {
       />
       {/* //display is to render props  */}
 
-      <Testimony Clientimage1={Client1}  Clientimage2={Client2}  Clientimage3={Client3} />
+      <Testimony
+        Clientimage1={Client1}
+        Clientimage2={Client2}
+        Clientimage3={Client3}
+      />
       <CardHeading />
       <CardDashboardGrid />
       <Footer />
