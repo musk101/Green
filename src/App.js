@@ -24,18 +24,19 @@ import NavSection from './Nav';
 
 
 
+
 function App()
 {
   
   return (
     <div className="App">
-      <ScrollToTopBtn />  
+      <ScrollToTopBtn />
       <Router>
-      <NavSection />
-      <br />
-      <br />
-      <br />
-      <br />
+        <NavSection />
+        <br />
+        <br />
+        <br />
+        <br />
         <Switch>
           <Route exact path="/" component={Page1} />
           <Route exact path="/design" component={Page2} />

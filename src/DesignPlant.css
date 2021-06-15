@@ -1,9 +1,8 @@
-.plant
-{
-width:100%;
-padding-left: 15vw;
-padding-bottom: 7vw;
-padding-top: 2vw;
+.plant {
+  width: 100%;
+  padding-left: 15vw;
+  padding-bottom: 7vw;
+  padding-top: 2vw;
 }
 /* #design-develop-button
 {
@@ -12,23 +11,57 @@ padding-top: 2vw;
  padding-left: 50%;
 } */
 @media all and (max-width: 770px) {
-    .workLaptopView { 
-      display: none !important;
-    }
+  .workLaptopView {
+    display: none !important;
   }
-  @media all and (min-width: 770px) {
-    .worksmall { 
-      display: none !important;
-    }
-     #design-develop-buttons
-{
-  width:50%;
-  object-fit: contain;
- padding-left: 50%;
+}
+@media all and (min-width: 770px) {
+  .worksmall {
+    display: none !important;
+  }
+  #design-develop-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.worksmall {
+  justify-content: center;
+}
 
-} 
+.footer-buttons-div{
+	display: flex;
+}
+
+.footer-btn {
+  max-width: 250px;
+  margin-bottom: 50px;
+}
+
+.other-services-text {
+  font-family: Blinker;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1c8463;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .footer-buttons-div{
+    display: block;
   }
-  .worksmall 
-  {
-      justify-content:center;
+  .footer-btn{
+    margin-bottom: 5px;
+  }
+  .other-services-text{
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+  }
+  
   }

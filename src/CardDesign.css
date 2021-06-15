@@ -17,6 +17,13 @@ img.ok {
   margin-bottom: 10px;
   /* overflow: hidden; */
 }
+
+@media only screen and (min-width: 600px) {
+  .thumbnail {
+    min-height: 120px;
+  }
+}
+
 .thumbnail > img {
   max-width: 100%;
   height: 100%;
