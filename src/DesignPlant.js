@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import plant from "./Plant.svg";
 import Grid from "@material-ui/core/Grid";
 import "./DesignPlant.css";
@@ -47,7 +48,7 @@ function DesignPlant(props) {
         id="design-develop-buttons"
         style={{ paddingTop: "5px" }}
       >
-        <Grid item xs={6} sm={4} md={4} id="design-develop-buttons">
+        {/* <Grid item xs={6} sm={4} md={4} id="design-develop-buttons">
           <p
             style={{
               color: textcolor,
@@ -58,7 +59,7 @@ function DesignPlant(props) {
           >
             Other Services
           </p>
-        </Grid>
+        </Grid> */}
       </Grid>
       <Grid
         container
@@ -66,26 +67,21 @@ function DesignPlant(props) {
         id="design-develop-buttons"
         style={{ paddingTop: "50px" }}
       >
-        <Grid item xs={7} sm={7} md={6} >
-          <img
-            className="designbutton"
-            src={DesignButton}
-            alt=""
-            height="auto"
-            width="200rem"
-          />
-        </Grid>
-     
-      
-        <Grid item xs={7} sm={4} md={6}
-       >
-          <img
-            className="developbutton"
+        <Grid item xs={12} sm={4} md={12}
+        >
+          <div className="text-center other-services-text">Other Services</div>
+          <div className="footer-buttons-div">
+          <Link to="/develop"><img
+            className="footer-btn mx-5"
             src={DevelopButton}
+            alt=""     
+          /></Link>
+           <Link to="/market"><img
+            className="footer-btn mx-5"
+            src={BusinessButton}
             alt=""
-            height="auto"
-            width="200rem"
-          />
+            /></Link>
+            </div>
         </Grid>
         </Grid>
       

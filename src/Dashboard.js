@@ -27,11 +27,10 @@ function Dashboard(props) {
   const classes = useStyles();
   return (
     <div>
-      <Grid container className="reverse-items">
-      <Link to="/market" />
-      <Grid item sm={6} md={4}>
-    
-          <img className="button1" src={BusinessButton} alt=""/>
+      {/* <Grid container className="reverse-items">
+          <Link to="/market" />
+          <Grid item sm={6} md={4}>
+            <img className="button1" src={BusinessButton} alt=""  />
         </Grid>
         <Grid item sm={6} md={4}>
           <img className="button1" src={DesignButton} alt="" />
@@ -39,7 +38,7 @@ function Dashboard(props) {
         <Grid item sm={6} md={4}>
           <img className="button1" src={DevelopButton} alt="" />
         </Grid>
-      </Grid>
+      </Grid> */}
       <Grid container className="reverse-items">
         <Grid item xs={12} sm={6} md={6}>
           <img className="saly" src={dashimage} alt="" />

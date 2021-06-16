@@ -40,11 +40,10 @@ export default function CardsGrid() {
         justify="center"
       >
         <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={js} hovertext="Java Script" />
+          <CardDesign src={js} hovertext="JavaScript" />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <CardDesign src={swift}  hovertext="Swift"/>
-        
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <CardDesign src={python}  hovertext="Python"/>
@@ -53,29 +52,28 @@ export default function CardsGrid() {
           <CardDesign src={flutter}  hovertext="Flutter" />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={react}  hovertext="React JS"/>
+          <CardDesign src={react}  hovertext="ReactJS"/>
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <CardDesign src={angular}  hovertext="Angular"/>
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={nodejs}  hovertext="Node JS"/>
+          <CardDesign src={nodejs}  hovertext="NodeJS"/>
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={mysql}  hovertext="My SQL"/>
+          <CardDesign src={mysql}  hovertext="MySQL"/>
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={css}  hovertext="CSS" />
-        </Grid>
-
-        <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={css}  hovertext="CSS" />
+          <CardDesign src={php} hovertext="PHP"/>
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <CardDesign src={css}  hovertext="CSS" />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
-          <CardDesign src={css}  hovertext="CSS"/>
+          <CardDesign src={html}  hovertext="HTML" />
+        </Grid>
+        <Grid item xs={6} sm={6} md={3}>
+          <CardDesign src={java}  hovertext="JAVA"/>
         </Grid>
       </Grid>
     </>

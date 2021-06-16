@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
@@ -24,19 +24,19 @@ import NavSection from './Nav';
 
 
 
+
 function App()
 {
   
-
   return (
     <div className="App">
-       <ScrollToTopBtn />
-      <NavSection />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <ScrollToTopBtn />
       <Router>
+        <NavSection />
+        <br />
+        <br />
+        <br />
+        <br />
         <Switch>
           <Route exact path="/" component={Page1} />
           <Route exact path="/design" component={Page2} />
@@ -170,7 +170,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/webdev"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="UX Design"
+                topHeading="UX Design"
                 linktext="Web development includes web designing, publishing, programming, and database management."
                 secondHeading="What is Web Development?"
                 linkphoto={PinkSettings}
@@ -185,7 +185,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/androidapp"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="Android App"
+                topHeading="Android App"
                 secondHeading="What is Android Application?"
                 linktext="When the product, websites deals with repetitive tasks, it's hard to keep users excited about it. That's where UI comes into play."
                 linkphoto={PinkSettings}
@@ -199,7 +199,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/webapp"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="Web App"
+                topHeading="Web App"
                 secondHeading="What is Web Application?"
                 linktext=" A web application is a software or program which is accessible using any web browser."
                 linkphoto={PinkSettings}
@@ -213,7 +213,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/iosapp"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="iOS App"
+                topHeading="iOS App"
                 secondHeading="What is iOS?"
                 linktext="When the product, websites deals with repetitive tasks, it's hard to keep users excited about it. That's where UI comes into play."
                 linkphoto={PinkSettings}
@@ -227,7 +227,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/maintainandtest"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="Maintain & Test"
+                topHeading="Maintain & Test"
                 secondHeading="What is Maintainance Testing ?"
                 linktext="Once a system is deployed it is in service for years and decades. During this time the system and its operational environment is often corrected, changed or extended. "
                 linkphoto={PinkSettings}
@@ -241,7 +241,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/uidev"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="U1 Development"
+                topHeading="U1 Development"
                 secondHeading="What is UI development ?"
                 linktext="A UI developer's role is to translate creative software design concepts and ideas into reality using front-end technology."
                 linkphoto={PinkSettings}
@@ -255,7 +255,7 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/api"
             component={(props) => (
               <LinkPageDevelop
-              topHeading="API"
+                topHeading="API"
                 secondHeading="What is API?"
                 linktext="An API integration is the connection between two or more applications, via their APIs, that lets those systems exchange data."
                 linkphoto={PinkSettings}
@@ -283,8 +283,8 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/content"
             component={(props) => (
               <LinkPage
-              topHeading="Content Writing"
-              secondHeading="What is Content Writing?"
+                topHeading="Content Writing"
+                secondHeading="What is Content Writing?"
                 linktext="engaged in the business of giving expert advice to people working in a professional or technical field."
                 linkphoto={linkb}
                 secondlinktext="Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes. It can include writing blog posts and articles, scripts for videos and podcasts, as well as content for specific platforms, such as tweetstorms on Twitter or text posts on Reddit."
@@ -298,8 +298,8 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/consulting"
             component={(props) => (
               <LinkPage
-              topHeading="Consulting"
-              secondHeading="What is Consulting ?"
+                topHeading="Consulting"
+                secondHeading="What is Consulting ?"
                 linktext="engaged in the business of giving expert advice to people working in a professional or technical field."
                 linkphoto={linkb}
                 secondlinktext="In a nutshell, consultants provide expert opinions, analysis, and recommendations to organizations or individuals, based on their own expertise. They're essentially fixers, serving as objective troubleshooters, and providing strategies to prevent problems and improve performance."
@@ -313,8 +313,8 @@ Logo design is all about creating the perfect visual brand mark for a company. D
             path="/branding"
             component={(props) => (
               <LinkPage
-              topHeading="Branding"
-              secondHeading="What is Branding?"
+                topHeading="Branding"
+                secondHeading="What is Branding?"
                 linktext="Branding is endowing products and services with the power of a brand."
                 linkphoto={linkb}
                 secondlinktext="The practice of creating a name, symbol or design that identifies and differentiates a product from other products. An effective brand strategy gives you a major edge in increasingly competitive markets."

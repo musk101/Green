@@ -15,8 +15,15 @@ img.ok {
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
-  overflow: hidden
+  /* overflow: hidden; */
 }
+
+@media only screen and (min-width: 600px) {
+  .thumbnail {
+    min-height: 120px;
+  }
+}
+
 .thumbnail > img {
   max-width: 100%;
   height: 100%;
@@ -31,19 +38,32 @@ img.ok {
  height: 100%;
  opacity: 0;
  transition: all 0.3s ease;
- line-height: 300px;
  text-align: center;
  font-size: 30px;
- z-index: 2
- 
+ z-index: 2;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ cursor:context-menu;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .thumbnail div {
+    font-size: 15px;
+
+  }
+}
+
+
 .thumbnail:hover > img {
- transform: scale(1.3)
+ /* transform: scale(1.3) */
+ transform: scale(1);
 }
 
 .thumbnail:hover > div {
- opacity: 1
+ opacity: 1;
 }
 #small-grid
 {
@@ -63,3 +83,8 @@ img.ok {
     display: none !important;
   }
 }
+/*on hover  */
+.card-content:hover{
+  background-color: #1c8463;
+}
+
