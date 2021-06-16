@@ -126,54 +126,75 @@ const [servicesNav, SetServicesNav] = useState( false );
                     </Link>
                   </li>
                 </>
-              ) : (
+              )  : (
                 <>
                   <span className="mt-5"></span>
                   <h2 className="services-text mx-4">SERVICES</h2>
                   <li className="nav-item active">
                     <span className="nav-link">
                       <Link to="/design">
-                        <img src={DesignButton} className="img-fluid" />
+                  <img src={DesignButton} className="img-fluid"
+                  data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
+                  />
                       </Link>
                     </span>
                   </li>
                   <li className="nav-item">
                       <Link to="/develop">
                         <span className="nav-link">
-                      <img src={DevelopButton} className="img-fluid" />
+                          <img src={DevelopButton} className="img-fluid"
+                  data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
+                      />
                     </span></Link>
                   </li>
                     <li className="nav-item">
                     <Link to="/market">
                     <span className="nav-link">
-                      <img src={BusinessButton} className="img-fluid" />
+                          <img src={BusinessButton} className="img-fluid"
+                  data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
+                      />
                         </span>
                         </Link>
                   </li>
                   <Link to="/work">
                     <li className="nav-item  nav-sidebar-text">
-                      <span className="mx-4" href="#">
+                      <span className="mx-4">
                         WORK
                       </span>
                     </li>
                   </Link>
                   <Link to="/about">
                     <li className="nav-item nav-sidebar-text mt-4">
-                      <span className="mx-4" href="#">
+                      <span className="mx-4">
                         ABOUT
                       </span>
                     </li>
                   </Link>
 
                   <li className="lets-talk-sidebar-div mt-4">
-                    <span className="side-nav-email">contact@alpharule.in</span>
-                    <span
-                      className="nav-link text-center text-uppercase"
-                      href="/letstalk"
-                      id="lets_talk"
-                    >
-                      Let's Talk
-                    </span>
+                    <span className="side-nav-email"><a href="mailto:contact@alpharule.in">contact@alpharule.in</a></span>
+                      <Link to="/work"><span
+                        className="nav-link text-center text-uppercase"
+                        href="/letstalk"
+                        id="lets_talk"
+                      >
+                        Let's Talk
+                      </span></Link>
                   </li>
                 </>
               )}
