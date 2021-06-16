@@ -23,7 +23,7 @@ function Footer() {
             className="img-footer"
           />
         </Grid>
-        <Grid item md={4} className="new">
+        <Grid item md={4} className="new" style={{paddingLeft:"9rem"}}>
           <h2>EXPLORE</h2>
           <Link to="/">ABOUT US</Link>
           <br />
