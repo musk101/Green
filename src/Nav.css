@@ -9,6 +9,6 @@
 }
 @media all and (min-width: 770px) {
     .dark-button {
-       display: none;
+      padding-right: 1.5rem;
     }
 }

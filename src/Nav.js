@@ -8,6 +8,7 @@ import Logo from "./Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Grid from "@material-ui/core/Grid";
+import nightday from './nightday.svg';
 
 
 export default function NavSection()
@@ -52,14 +53,15 @@ const [servicesNav, SetServicesNav] = useState( false );
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-nav">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-nav dark-button">
         <Container>
+          
           <span className="navbar-brand">
             <Link to="/">
               <img src={Logo} alt="" />
             </Link>
           </span>
-
+          
           <button
             className="navbar-toggler"
             data-toggle="collapse"
@@ -71,12 +73,15 @@ const [servicesNav, SetServicesNav] = useState( false );
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+      
+        
           <div
-            className="collapse navbar-collapse bg-nav justify-content-end"
+            className="collapse navbar-collapse bg-nav justify-content-end dark-button"
             id="navbarCollapse"
           >
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
+               
                 <button
                   className="navbar-toggler toogle-btn-li"
                   data-toggle="collapse"
@@ -95,6 +100,11 @@ const [servicesNav, SetServicesNav] = useState( false );
 
               {width > 1000 ? (
                 <>
+                <li className="nav-item active">
+                    <Link to="/">
+                      <span className="nav-link">Home</span>
+                    </Link>
+                  </li>
                   <li className="nav-item active">
                     <Link to="/work">
                       <span className="nav-link">Work</span>
@@ -114,7 +124,11 @@ const [servicesNav, SetServicesNav] = useState( false );
                       <span className="nav-link">About</span>
                     </Link>
                   </li>
-
+                  <li className="nav-item">
+                    <Link to="/">
+                  <img src={nightday} className="dark-button" style={{paddingRight: "2.7rem",paddingTop: "0.3rem"}}/>
+                  </Link>
+                  </li>
                   <li>
                     <Link to="/letstalk">
                       <span
@@ -212,17 +226,7 @@ const [servicesNav, SetServicesNav] = useState( false );
       {servicesNav === true ? (
         <div className="nav-serices-menu">
           <Grid container className="reverse-items nav-services" justify="center">
-            <Link to="/market" />
-            <Grid item sm={6} md={3}>
-              <Link to="/market">
-                <img
-                  className="button1"
-                  src={BusinessButton}
-                  alt=""
-                  onClick={servicesMenuClose}
-                />
-              </Link>
-            </Grid>
+            
             <Grid item sm={6} md={3}>
               <Link to="/design">
                 <img
@@ -238,6 +242,16 @@ const [servicesNav, SetServicesNav] = useState( false );
                 <img
                   className="button1"
                   src={DevelopButton}
+                  alt=""
+                  onClick={servicesMenuClose}
+                />
+              </Link>
+            </Grid>
+            <Grid item sm={6} md={3}>
+              <Link to="/market">
+                <img
+                  className="button1"
+                  src={BusinessButton}
                   alt=""
                   onClick={servicesMenuClose}
                 />

@@ -6,6 +6,11 @@ import CardDesignHeading from "./CardDesignHeading";
 import DesignPlant from "./DesignPlant";
 import Dreamtext from "./Dreamtext";
 import RedPlant from "./RedPlant.svg";
+import {Link} from 'react-router-dom';
+import DesignButton from "./DesignButton.svg";
+import DevelopButton from "./DevelopButton.svg";
+import BusinessButton from "./BusinessButton.svg";
+import Grid from "@material-ui/core/Grid";
 
 function Page2() {
   return (
@@ -34,6 +39,29 @@ function Page2() {
       <CardDesignHeading />
       <CardDesignGrid />
       <DesignPlant textcolor="#1C8463" imageplant={RedPlant}/>
+      <Grid
+        container
+       
+        id="design-develop-buttons"
+        style={{ paddingTop: "50px" }}
+      >
+        <Grid item xs={12} sm={4} md={12}
+        >
+          <div className="text-center other-services-text">Other Services</div>
+          <div className="footer-buttons-div">
+          <Link to="/develop"><img
+            className="footer-btn mx-5"
+            src={DevelopButton}
+            alt=""     
+          /></Link>
+           <Link to="/market"><img
+            className="footer-btn mx-5"
+            src={BusinessButton}
+            alt=""
+            /></Link>
+            </div>
+        </Grid>
+        </Grid>
       <Footer />
     </div>
   );

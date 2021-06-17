@@ -3,9 +3,7 @@ import {Link} from 'react-router-dom';
 import plant from "./Plant.svg";
 import Grid from "@material-ui/core/Grid";
 import "./DesignPlant.css";
-import DesignButton from "./DesignButton.svg";
-import DevelopButton from "./DevelopButton.svg";
-import BusinessButton from "./BusinessButton.svg";
+
 import WorkSmall from "./WorkSmall";
 import { makeStyles } from "@material-ui/core/styles";
 import DesignSmall from "./DesignSmall.svg";
@@ -61,29 +59,7 @@ function DesignPlant(props) {
           </p>
         </Grid> */}
       </Grid>
-      <Grid
-        container
-       
-        id="design-develop-buttons"
-        style={{ paddingTop: "50px" }}
-      >
-        <Grid item xs={12} sm={4} md={12}
-        >
-          <div className="text-center other-services-text">Other Services</div>
-          <div className="footer-buttons-div">
-          <Link to="/develop"><img
-            className="footer-btn mx-5"
-            src={DevelopButton}
-            alt=""     
-          /></Link>
-           <Link to="/market"><img
-            className="footer-btn mx-5"
-            src={BusinessButton}
-            alt=""
-            /></Link>
-            </div>
-        </Grid>
-        </Grid>
+     
       
     </div>
   );

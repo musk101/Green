@@ -25,7 +25,7 @@ function Footer() {
         </Grid>
         <Grid item md={4} className="new" style={{paddingLeft:"9rem"}}>
           <h2>EXPLORE</h2>
-          <Link to="/">ABOUT US</Link>
+          <Link to="/about">ABOUT US</Link>
           <br />
           <Link to="/">PROJECTS</Link>
           <br />
