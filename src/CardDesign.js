@@ -26,6 +26,7 @@ export default function OutlinedCard(props) {
   const image = props.src;
   const hovertext = props.hovertext;
   const classes = useStyles();
+  const bgcolor=props.bgcolor;
   return (
     <Card
       className={classes.root}
