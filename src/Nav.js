@@ -188,9 +188,8 @@ const [servicesNav, SetServicesNav] = useState( false );
 
                   <li className="lets-talk-sidebar-div mt-4">
                     <span className="side-nav-email"><a href="mailto:contact@alpharule.in">contact@alpharule.in</a></span>
-                      <Link to="/work"><span
+                      <Link to="/letstalk"><span
                         className="nav-link text-center text-uppercase"
-                        href="/letstalk"
                         id="lets_talk"
                       >
                         Let's Talk

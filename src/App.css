@@ -19,10 +19,10 @@
 	margin: 0;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  /* .navbar a:hover, .dropdown:hover .dropbtn {
 	background-color:#97ed4c;
 	color: red;
-  }
+  } */
   
   .dropdown-content {
 	display: none;

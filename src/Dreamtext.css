@@ -83,4 +83,48 @@
    
     }}
 
-   
+    /* .send-btn{
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+        border: 3px solid rgba(255,89,117,1);
+        font-weight: 900;
+       width: 50px;
+    }
+    .send-btn:hover {
+        background-color: #FF5975;
+        color: white;
+      }
+    h2,
+    h3,
+    a {
+        color: #363636;
+    } */
+
+    .btn-outline-danger{
+        font-weight: 550;
+        border: 3px solid rgba(255,89,117,1);
+        border-radius: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .container-lets-talk{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+/* sm */
+    @media only screen and (max-width: 600px) {
+    .lets-talk-img{
+        height: 500px;
+        margin-bottom: 20px;
+
+    }
+}
+/* lg */
+@media only screen and (min-width: 600px) {
+    .lets-talk-img{
+        height: 500px;
+        margin-bottom: 50px;
+
+    }
+}

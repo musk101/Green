@@ -9,19 +9,19 @@ function LetsTalk() {
   
   return (
     <>
+        <div className="container-lets-talk">
       <Grid container>
-        <Grid item md={6} xs={12} className="text-convert text-center mt-5">
-          <Grid item md={12} xs={12}>
-            <span>Let's Talk?</span>
-          </Grid>
-
-          <Grid item md={12} xs={12}>
+        <Grid item md={4} xs={12} className="text-convert text-center mt-5">
+          
+          <span>Let's Talk?</span>
+          <br />
             <input
               label="Outlined"
               variant="outlined"
               placeholder="Name"
               style={{ backgroundColor: "#eaf5dd" }}
-            />
+          />
+          
             <input
               label="Outlined"
               variant="outlined"
@@ -34,13 +34,18 @@ function LetsTalk() {
               placeholder="Phone Number"
               style={{ backgroundColor: "#eaf5dd" }}
             />
-          </Grid>
+        
+            <button
+          className="btn btn-outline-danger btn-lg"
+          >Send</button>
         </Grid>
 
-        <Grid item md={6} xs={12}>
-          <img src={contact} className="img-fluid" />
+        <Grid item md={8} xs={12}>
+          <img src={contact} className="img-fluid lets-talk-img" />
+          </Grid>
+          
         </Grid>
-      </Grid>
+        </div>
       <Footer />
     </>
   );

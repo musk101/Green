@@ -9,17 +9,19 @@
   
   select,
   input {
-    display: block;
+    display: flex;
     box-sizing: border-box;
-    width: 50%;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 2.5px 2px 2px grey;
     padding: 15px 15px;
     margin-bottom: 15px;
-    margin-left: 190px;
+    /* margin-left: 190px; */
     font-size: 14px;
     background-color:#EAF5DD;
     text-align: center;
+    /* align-items: center;
+    justify-content: center; */
   }
   
   .label,
