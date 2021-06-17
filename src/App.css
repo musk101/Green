@@ -160,6 +160,11 @@ a {
 	animation: fadeIn 700ms ease-in-out 1s both;
 	cursor: pointer;
   }
+  @media all and (max-width: 770px) {
+    .scroll-to-top { 
+      display: none !important;
+    }
+}
   
   @keyframes fadeIn {
 	from {

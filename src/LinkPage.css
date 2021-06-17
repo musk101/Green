@@ -45,7 +45,13 @@
     font-weight: 600;
     margin-bottom: 0.5vw;
     font-size: 10vw;
-    margin-left: 7vmin;
+    margin-left: 11vmin;
+  }
+  .heading2
+  {
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+    font-size: 10vw;
   }
 }
 @media all and (max-width: 770px) {

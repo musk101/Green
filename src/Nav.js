@@ -211,19 +211,9 @@ const [servicesNav, SetServicesNav] = useState( false );
       {/* services menu on desktop */}
       {servicesNav === true ? (
         <div className="nav-serices-menu">
-          <Grid container className="reverse-items nav-services">
-            <Link to="/market" />
-            <Grid item sm={6} md={4}>
-              <Link to="/market">
-                <img
-                  className="button1"
-                  src={BusinessButton}
-                  alt=""
-                  onClick={servicesMenuClose}
-                />
-              </Link>
-            </Grid>
-            <Grid item sm={6} md={4}>
+          
+          <Grid container className="reverse-items nav-services" justify="center">
+          <Grid item sm={6} md={3}>
               <Link to="/design">
                 <img
                   className="button1"
@@ -233,7 +223,7 @@ const [servicesNav, SetServicesNav] = useState( false );
                 />
               </Link>
             </Grid>
-            <Grid item sm={6} md={4}>
+            <Grid item sm={6} md={3}>
               <Link to="/develop">
                 <img
                   className="button1"
@@ -243,6 +233,19 @@ const [servicesNav, SetServicesNav] = useState( false );
                 />
               </Link>
             </Grid>
+            <Link to="/market" />
+            <Grid item sm={6} md={3}>
+              <Link to="/market">
+                <img
+                  className="button1"
+                  src={BusinessButton}
+                  alt=""
+                  onClick={servicesMenuClose}
+                />
+              </Link>
+            </Grid>
+            
+           
           </Grid>
         </div>
       ) : (

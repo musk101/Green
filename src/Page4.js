@@ -8,11 +8,12 @@ import Dreamtext from "./Dreamtext";
 import DesignPlant from "./DesignPlant";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
+import './Dreamtext.css';
 function Page4() {
   return (
     <div>
       <Dashboard dashimage={two} dashimage2={markettext} display={false} />
-      <Dreamtext
+      <Dreamtext className="correct"
         text1link="/digital"
         text2link="/content"
         text6link="/consulting"
