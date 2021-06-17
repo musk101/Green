@@ -66,18 +66,18 @@ function Aboutus() {
         <Grid item md={9}>
           <Grid container spacing={10} justify="center">
             <Grid item xs={12} sm={6} md={3}>
-              <CardDesign src={integrity} alt="1" />
+              <CardDesign src={integrity} alt="1" hovertext="integrity"/>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-              <CardDesign src={customercentric} alt="2" />
+              <CardDesign src={customercentric} alt="2" hovertext="customer centric"/>
             </Grid>
           </Grid>
           <Grid container spacing={10} justify="center">
             <Grid item xs={12} sm={6} md={3}>
-              <CardDesign src={goodteam} alt="1" />
+              <CardDesign src={goodteam} alt="1" hovertext="goodteam"/>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-              <CardDesign src={trustworthy} alt="2" />
+              <CardDesign src={trustworthy} alt="2" hovertext="trust worthy"/>
             </Grid>
           </Grid>
         </Grid>

@@ -12,6 +12,7 @@ import Third from "./Third.svg";
 import Client1 from "./Client1.svg";
 import Client2 from "./Client2.svg";
 import Client3  from "./Client3.svg";
+import "./Work.css";
 
 
 function Page1() {

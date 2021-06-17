@@ -21,7 +21,7 @@
     font-family: 'Blinker', sans-serif;
     font-weight: 800;
     font-size: 4vw;
-    /* padding-left: 10vmin; */
+    padding-left: 10vmin;
 }
 .text-convert2
 {
@@ -44,17 +44,25 @@
     {
      align-items: left;
       border-bottom: 3px dotted;
+      margin-left: 3rem;
+     margin-bottom: 3rem;
    
     }
+    
     .list-service
     {
        justify-content: left;
       
     }
+    .correct
+    {
+        margin-left: 15rem !important;
+    }
     .text-convert
 {
    
     font-size: 8vw;
+    padding-left: 2.5rem;
 }
 .text-convert2
 {
@@ -67,12 +75,12 @@
     font-family: 'Blinker', sans-serif;
     font-weight: 600;
     font-size: 6vw;
-    padding-left: 8%;
+    padding-left: 8.5%;
     color: #34c25e;
 }
 .text-help
 {
-    margin-left: 20%;
+    margin-left: 40% !important;
 }
 }
 @media all and (min-width: 770px) {
@@ -81,7 +89,8 @@
      align-items: left;
      margin-left: 24%;
    
-    }}
+    }
+}
 
     /* .send-btn{
         padding-left: 25px;

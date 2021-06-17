@@ -5,6 +5,8 @@ import DesignButton from "./DesignButton.svg";
 import DevelopButton from "./DevelopButton.svg";
 import BusinessButton from "./BusinessButton.svg";
 import Logo from "./Logo.svg";
+import NightDay from './nightday.svg';
+import './Nav.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Grid from "@material-ui/core/Grid";
@@ -56,7 +58,7 @@ const [servicesNav, SetServicesNav] = useState( false );
         <Container>
           <span className="navbar-brand">
             <Link to="/">
-              <img src={Logo} alt="" />
+              <img src={Logo} alt="" className="image-logo"/>
             </Link>
           </span>
 
@@ -68,7 +70,7 @@ const [servicesNav, SetServicesNav] = useState( false );
             aria-expanded="false"
             aria-label="Toggle navigation"
             onClick={backgroundBlur}
-          >
+          >  <img src={NightDay} alt="" className="dark-button"/>
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
@@ -210,19 +212,9 @@ const [servicesNav, SetServicesNav] = useState( false );
       {/* services menu on desktop */}
       {servicesNav === true ? (
         <div className="nav-serices-menu">
-          <Grid container className="reverse-items nav-services">
-            <Link to="/market" />
-            <Grid item sm={6} md={4}>
-              <Link to="/market">
-                <img
-                  className="button1"
-                  src={BusinessButton}
-                  alt=""
-                  onClick={servicesMenuClose}
-                />
-              </Link>
-            </Grid>
-            <Grid item sm={6} md={4}>
+          
+          <Grid container className="reverse-items nav-services" justify="center" spacing={4}>
+          <Grid item sm={6} md={3}>
               <Link to="/design">
                 <img
                   className="button1"
@@ -232,7 +224,7 @@ const [servicesNav, SetServicesNav] = useState( false );
                 />
               </Link>
             </Grid>
-            <Grid item sm={6} md={4}>
+            <Grid item sm={6} md={3}>
               <Link to="/develop">
                 <img
                   className="button1"
@@ -242,6 +234,19 @@ const [servicesNav, SetServicesNav] = useState( false );
                 />
               </Link>
             </Grid>
+            <Link to="/market" />
+            <Grid item sm={6} md={3}>
+              <Link to="/market">
+                <img
+                  className="button1"
+                  src={BusinessButton}
+                  alt=""
+                  onClick={servicesMenuClose}
+                />
+              </Link>
+            </Grid>
+            
+           
           </Grid>
         </div>
       ) : (
