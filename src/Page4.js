@@ -9,6 +9,7 @@ import DesignPlant from "./DesignPlant";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
 import './Dreamtext.css';
+import red from './red.svg'
 function Page4() {
   return (
     <div>
@@ -25,7 +26,7 @@ function Page4() {
       />
       <CardDesignHeading />
       <CardMarketGrid />
-      <DesignPlant textcolor="#97ed4c" imageplant={Marketplant}/>
+      <DesignPlant textcolor="#97ed4c" imageplant={Marketplant} DesignSmall={red}/>
       <Footer />
     </div>
   );
