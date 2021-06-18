@@ -323,3 +323,8 @@ bottom:   0;
 	z-index: 100;
 }
 
+.button-services-lg{
+width:100%;
+padding-top: 1rem;
+padding-bottom: 10%;
+}
