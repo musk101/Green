@@ -1,6 +1,8 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Footer from './Footer'
+import Footer from './Footer';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 import contact from './contact.svg'
 // import TextField from '@material-ui/core/TextField';
 // import helpyou from './helpyou.svg'
@@ -15,23 +17,20 @@ function LetsTalk() {
             <span>Let's Talk?</span>
             <br />
             <input
-              label="Outlined"
-              variant="outlined"
+              
               placeholder="Name"
-              style={{ backgroundColor: "#eaf5dd" }}
+              style={{ backgroundColor: "#eaf5dd" , border:"none", boxShadow: "0px 0px 5px" }}
             />
 
             <input
-              label="Outlined"
-              variant="outlined"
+             
               placeholder="E-mail"
-              style={{ backgroundColor: "#eaf5dd" }}
+              style={{ backgroundColor: "#eaf5dd" , border:"none", boxShadow: "0px 0px 5px"}}
             />
             <input
-              label="Outlined"
-              variant="outlined"
-              placeholder="Phone Number"
-              style={{ backgroundColor: "#eaf5dd" }}
+             
+              placeholder="+91-12345"
+              style={{ backgroundColor: "#eaf5dd" , border:"none", boxShadow: "0px 0px 5px"}}
             />
 
             <button className="btn btn-outline-danger btn-lg">Send</button>
