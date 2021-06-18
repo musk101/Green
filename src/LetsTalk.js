@@ -33,7 +33,9 @@ function LetsTalk() {
               style={{ backgroundColor: "#eaf5dd" , border:"none", boxShadow: "0px 0px 5px"}}
             />
 
-            <button className="btn btn-outline-danger btn-lg">Send</button>
+            <button className="btn btn-outline-danger btn-lg" type="submit">
+              Send
+            </button>
           </Grid>
 
           <Grid item md={8} xs={12}>
