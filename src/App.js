@@ -30,8 +30,8 @@ function App()
   
   return (
     <div className="App">
-      <ScrollToTopBtn className="scroll-to-top" />
       <Router>
+        <ScrollToTopBtn  />
         <NavSection />
         <br />
         <br />

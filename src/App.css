@@ -153,7 +153,7 @@ a {
 	-moz-border-radius: 5px;
 	border-radius: 1px;
 } */
-.scroll-to-top {
+/* .scroll-to-top {
 	position: fixed;
 	bottom: 7.5rem;
 	right: 5.5rem;
@@ -164,7 +164,7 @@ a {
     .scroll-to-top { 
       display: none !important;
     }
-}
+} */
   
   @keyframes fadeIn {
 	from {
