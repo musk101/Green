@@ -37,6 +37,7 @@ function Page1() {
       />
       <CardHeading />
       <CardDashboardGrid />
+      <br />
       <Footer />
     </div>
   );

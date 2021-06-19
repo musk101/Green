@@ -58,7 +58,7 @@ const [servicesNav, SetServicesNav] = useState( false );
           
           <span className="navbar-brand">
             <Link to="/">
-              <img src={Logo} alt="" />
+              <img src={Logo} alt="" className="nav-logo"/>
             </Link>
           </span>
           
@@ -102,18 +102,18 @@ const [servicesNav, SetServicesNav] = useState( false );
                 <>
                 <li className="nav-item active">
                     <Link to="/">
-                      <span className="nav-link">Home</span>
+                      <span className="nav-link text-dark">Home</span>
                     </Link>
                   </li>
                   <li className="nav-item active">
                     <Link to="/work">
-                      <span className="nav-link">Work</span>
+                      <span className="nav-link text-dark">Work</span>
                     </Link>
                   </li>
 
                   <li className="nav-item">
                   
-                    <span className="nav-link" onClick={isServicesOpen}>
+                    <span className="nav-link text-dark" onClick={isServicesOpen}>
                       Services
                       </span>
                       
@@ -121,7 +121,7 @@ const [servicesNav, SetServicesNav] = useState( false );
 
                   <li className="nav-item">
                     <Link to="/about">
-                      <span className="nav-link">About</span>
+                      <span className="nav-link text-dark">About</span>
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -187,14 +187,28 @@ const [servicesNav, SetServicesNav] = useState( false );
                   </li>
                   <Link to="/work">
                     <li className="nav-item  nav-sidebar-text">
-                      <span className="mx-4">
+                        <span className="mx-4"
+                        data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
+                        >
                         WORK
                       </span>
                     </li>
                   </Link>
                   <Link to="/about">
                     <li className="nav-item nav-sidebar-text mt-4">
-                      <span className="mx-4">
+                        <span className="mx-4"
+                        data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
+                        >
                         ABOUT
                       </span>
                     </li>
@@ -202,10 +216,15 @@ const [servicesNav, SetServicesNav] = useState( false );
 
                   <li className="lets-talk-sidebar-div mt-4">
                     <span className="side-nav-email"><a href="mailto:contact@alpharule.in">contact@alpharule.in</a></span>
-                      <Link to="/work"><span
+                      <Link to="/letstalk"><span
                         className="nav-link text-center text-uppercase"
-                        href="/letstalk"
                         id="lets_talk"
+                        data-toggle="collapse"
+                  data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  onClick={removeBackgroundBlur}
                       >
                         Let's Talk
                       </span></Link>

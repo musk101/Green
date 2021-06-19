@@ -35,9 +35,10 @@ export default function OutlinedCard(props) {
         backgroundColor: "#EAF5DD",
         boxShadow: "none",
         border: "none",
-        borderRadius: "0px",
-        paddingTop: "2px",
-        paddingBottom: "5px",
+        borderRadius: "10px",
+        // paddingTop: "2px",
+        // paddingBottom: "5px",
+        boxShadow: "-10px 20px 10px 0px #aaaaaa",
       }}
     >
       <CardContent className="card-content">

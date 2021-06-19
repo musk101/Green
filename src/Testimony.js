@@ -16,23 +16,23 @@ function Testimony(props) {
           <h1>What Clients Says?</h1>
         </Grid>
       </Grid>
-      <Slider dots Color={false} arrows={false} className="imajtopbox" autoplay={true}>
+      <Slider dots Color={false} duration="10" arrows={false} className="imajtopbox" autoplay={true}
+      
+      
+      >
         <Grid container style={{ backgroundColor: "green" }}>
           <Grid item xs={false} sm={12} md={12}>
             <img className="imaj" src={Clientimage1} alt="" />
-            {/* test */}
           </Grid>
         </Grid>
         <Grid container style={{ backgroundColor: "transparent" }}>
           <Grid item xs={12} sm={12} md={12}>
             <img className="imaj" src={Clientimage2} alt="" />
-            {/* test */}
           </Grid>
         </Grid>
         <Grid container style={{ backgroundColor: "red" }}>
           <Grid item xs={12} sm={12} md={12}>
             <img className="imaj" src={Clientimage3} alt="" />
-            {/* test */}
           </Grid>
         </Grid>
       </Slider>

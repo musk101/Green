@@ -271,9 +271,7 @@ a {
 .navbar h2{
 	color: #FF5975;
 }
-.nav-sidebar-text{
-	font-weight: 900;
-}
+
 
 .lets_talk_sidebar{
 	border-radius: 10px;
@@ -289,9 +287,7 @@ bottom:   0;
 .side-nav-email{
 	font-size: 14px;
 }
-.services-text{
-	font-weight: 700;
-}
+
 .mobile-nav-overly {
     width: 100%;
     height: 100%;
@@ -327,4 +323,10 @@ bottom:   0;
 width:100%;
 padding-top: 1rem;
 padding-bottom: 10%;
+}
+
+@media (max-width: 992px) {
+.nav-logo{
+ height: 50px;
+}
 }
