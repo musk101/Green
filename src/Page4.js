@@ -32,7 +32,7 @@ function Page4() {
       <CardDesignHeading />
       <CardMarketGrid />
     
-      <DesignPlant textcolor="#97ed4c" imageplant={Marketplant} DesignSmall={red}/>
+      <DesignPlant textcolor="#97ed4c" imageplant={Marketplant}/>
       <Grid
         container
        

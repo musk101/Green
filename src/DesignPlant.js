@@ -20,7 +20,7 @@ function DesignPlant(props) {
   const classes = useStyles();
   return (
     <div>
-      <Grid container className="worksmall" spacing={3}>
+      {/* <Grid container spacing={3}>
         <Grid item md={12} className="rrd">
           <WorkSmall
             worksmallimage={DesignSmall}
@@ -28,7 +28,7 @@ function DesignPlant(props) {
             cardcolor="#1c8463"
           />
         </Grid>
-      </Grid>
+      </Grid> */}
       <Grid container className="workLaptopView">
         <Grid item xs={10} sm={10} md={10}>
           <img className="plant" src={imageplant} alt="" />
