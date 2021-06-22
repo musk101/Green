@@ -11,13 +11,12 @@ import LetsTalk from "./LetsTalk";
 import ScrollToTopBtn from "./ScrollToTop";
 import niblink from "./niblink.svg";
 import linkb from './linkb.svg';
-import PinkSettings from './PinkSettings.svg'
+import PinkSettings from './assets/PinkSettings.svg'
 import LinkPage from "./LinkPage";
 import LinkPageDevelop from "./LinkPageDevelop";
 import nightday from "./nightday.svg";
 import Aboutus from "./Aboutus";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Logo from "./Logo.svg";
 import Work from "./Work";
 import ae from "./ae.svg";
 import NavSection from './Nav';

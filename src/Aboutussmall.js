@@ -1,13 +1,13 @@
 import React from "react";
-import FlyingSaly from "./FlyingSaly.svg";
-import aboutsecond from "./aboutsecond.svg";
+import FlyingSaly from "./assets/FlyingSaly.svg";
+import aboutsecond from "./assets/aboutsecond.svg";
 import CardDesign from "./CardDesign";
 import Footer from "./Footer";
 import abouttext from "./abouttext.svg";
-import customercentric from "./customercentric.svg";
-import integrity from "./integrity.svg";
-import trustworthy from "./trustworthy.svg";
-import goodteam from "./goodteam.svg";
+import customercentric from "./assets/customercentric.svg";
+import integrity from "./assets/integrity.svg";
+import trustworthy from "./assets/trustworthy.svg";
+import goodteam from "./assets/goodteam.svg";
 
 import Grid from "@material-ui/core/Grid";
 import "./Aboutus.css";

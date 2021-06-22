@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Footer from './Footer';
 // import PhoneInput from 'react-phone-input-2';
 // import 'react-phone-input-2/lib/style.css';
-import contact from './contact.svg'
+import contact from './assets/contact.svg'
 // import TextField from '@material-ui/core/TextField';
 // import helpyou from './helpyou.svg'
 import "./Dreamtext.css";

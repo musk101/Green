@@ -3,12 +3,12 @@ import "./CardDesign.css";
 import CardDesign from "./CardDesign";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import xd from "./adobe-xd 1.svg";
-import figma from "./figma-1 1.svg";
-import ai from "./illustrator.svg";
-import id from "./indesign.svg";
-import ae from "./ae.svg";
-import ps from "./Photoshop.svg";
+import xd from "./assets/adobe-xd 1.svg";
+import figma from "./assets/figma-1 1.svg";
+import ai from "./assets/illustrator.svg";
+import id from "./assets/indesign.svg";
+import ae from "./assets/ae.svg";
+import ps from "./assets/Photoshop.svg";
 
 const useStyles = makeStyles({
   gridContainer: {

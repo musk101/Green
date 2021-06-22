@@ -4,17 +4,17 @@ import CardDesign from "./CardDesign";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import flutter from "./flutter.svg";
-import php from "./php.svg";
-import js from "./jsnew.svg";
-import mysql from "./mysql.svg";
-import react from "./react.svg";
-import swift from "./swift.svg";
-import nodejs from "./nodejs.svg";
-import angular from "./angular.svg";
-import python from "./python.svg";
-import css from "./css.svg";
-import html from "./html.svg";
-import java from "./java.svg";
+import php from "./assets/php.svg";
+import js from "./assets/jsnew.svg";
+import mysql from "./assets/mysql.svg";
+import react from "./assets/react.svg";
+import swift from "./assets/swift.svg";
+import nodejs from "./assets/nodejs.svg";
+import angular from "./assets/angular.svg";
+import python from "./assets/python.svg";
+import css from "./assets/css.svg";
+import html from "./assets/html.svg";
+import java from "./assets/java.svg";
 
 const useStyles = makeStyles({
   gridContainer: {

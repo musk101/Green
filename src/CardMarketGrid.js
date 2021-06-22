@@ -5,16 +5,16 @@ import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import googleanalytics from './googleanalytics.svg';
 import digitalmarket from './digitalmarketing.svg';
-import digim from './digim.svg';
-import loudspeaker from './loudspeaker.svg';
-import create from './create.svg';
-import printing from './PrintingMedia.svg'
-import googleads from './googleads.svg';
-import designpost from './designpost.svg';
-import clienttalk from './clienttalk.svg';
-import hubspot from './hubspot.svg';
-import brandd from  './BrandD.svg'
-import startupc from './startupc.svg';
+import digim from './assets/digim.svg';
+import loudspeaker from './assets/loudspeaker.svg';
+import create from './assets/create.svg';
+import printing from './assets/PrintingMedia.svg'
+import googleads from './assets/googleads.svg';
+import designpost from './assets/designpost.svg';
+import clienttalk from './assets/clienttalk.svg';
+import hubspot from './assets/hubspot.svg';
+import brandd from  './assets/BrandD.svg'
+import startupc from './assets/startupc.svg';
 
 
 const useStyles = makeStyles({

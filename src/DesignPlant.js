@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import plant from "./Plant.svg";
+import plant from "./assets/Plant.svg";
 import Grid from "@material-ui/core/Grid";
 import "./DesignPlant.css";
 

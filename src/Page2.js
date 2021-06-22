@@ -5,11 +5,11 @@ import CardDesignGrid from "./CardDesignGrid";
 import CardDesignHeading from "./CardDesignHeading";
 import DesignPlant from "./DesignPlant";
 import Dreamtext from "./Dreamtext";
-import RedPlant from "./RedPlant.svg";
+import RedPlant from "./assets/RedPlant.svg";
 import {Link} from 'react-router-dom';
-import DesignButton from "./DesignButton.svg";
-import DevelopButton from "./DevelopButton.svg";
-import BusinessButton from "./BusinessButton.svg";
+import DesignButton from "./assets/DesignButton.svg";
+import DevelopButton from "./assets/DevelopButton.svg";
+import BusinessButton from "./assets/BusinessButton.svg";
 import Grid from "@material-ui/core/Grid";
 
 function Page2() {

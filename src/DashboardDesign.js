@@ -1,7 +1,7 @@
 import React from 'react'
 import './Dashboard.css'
-import Nib from './Nib.svg'
-import DesignText from './DesignText.svg'
+import Nib from './assets/Nib.svg'
+import DesignText from './assets/DesignText.svg'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({

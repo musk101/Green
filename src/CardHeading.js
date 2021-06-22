@@ -1,5 +1,5 @@
 import React from 'react'
-import WhyUs from './WhyUs.svg'
+import WhyUs from './assets/WhyUs.svg'
 import './Cards.css';
 
 function CardHeading() {

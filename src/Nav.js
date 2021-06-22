@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {Container } from "react-bootstrap";
-import DesignButton from "./DesignButton.svg";
-import DevelopButton from "./DevelopButton.svg";
-import BusinessButton from "./BusinessButton.svg";
-import Logo from "./Logo.svg";
+import DesignButton from "./assets/DesignButton.svg";
+import DevelopButton from "./assets/DevelopButton.svg";
+import BusinessButton from "./assets/BusinessButton.svg";
+import Logo from "./assets/Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Grid from "@material-ui/core/Grid";

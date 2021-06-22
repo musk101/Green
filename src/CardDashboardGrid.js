@@ -4,9 +4,9 @@ import CardDesign from "./CardDesign";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import customercentric from "./customercentric.svg";
-import integrity from "./integrity.svg";
-import trustworthy from "./trustworthy.svg";
-import goodteam from "./goodteam.svg";
+import integrity from "./assets/integrity.svg";
+import trustworthy from "./assets/trustworthy.svg";
+import goodteam from "./assets/goodteam.svg";
 
 const useStyles = makeStyles({
   gridContainer: {
