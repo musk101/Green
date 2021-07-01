@@ -1,140 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@800&display=swap');
-
-
-.help
-{
-    width:100vw;
-    object-fit: contain;
+.help {
+  width: 100vw;
+  object-fit: contain;
 }
-.text_help
-{
-    font-weight: 600;
-    font-family: 'Blinker', sans-serif;
-    font-size: 23px;
-    line-height: 47px;
-    /* margin-left: 10%; */
+.text_help {
+  font-weight: 600;
+  font-family: "Blinker", sans-serif;
+  font-size: 23px;
+  line-height: 47px;
+  /* margin-left: 10%; */
 }
-.text-convert
-{
-    font-family: 'Blinker', sans-serif;
-    font-weight: 800;
-    font-size: 4vw;
-    padding-left: 10vmin;
+.text-convert {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+  font-size: 4vw;
+  padding-left: 10vmin;
 }
-.text-convert2
-{
-    font-family: 'Blinker', sans-serif;
-    font-weight: 800;
-    font-size: 4vw;
-    padding-left: 10vmin;
+.text-convert2 {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+  font-size: 4vw;
+  padding-left: 10vmin;
 }
-.serve
-{
-    font-family: 'Blinker', sans-serif;
-    font-weight: 400;
-    font-size: 2.5vw;
-    padding-left: 10vmin;
-    color: #34c25e;
+.serve {
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+  padding-left: 10vmin;
+  color: #34c25e;
 }
 
 @media all and (max-width: 770px) {
-    .text_help 
-    {
-     align-items: left;
-      border-bottom: 3px dotted;
-      margin-left: 3rem;
-     margin-bottom: 3rem;
-   
-    }
-    
-    .list-service
-    {
-       justify-content: left;
-      
-    }
-    .correct
-    {
-        margin-left: 15rem !important;
-    }
-    .text-convert
-{
-   
+  .text_help {
+    align-items: left;
+    border-bottom: 3px dotted;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .list-service {
+    justify-content: left;
+  }
+  .correct {
+    margin-left: 15rem !important;
+  }
+  .text-convert {
     font-size: 8vw;
     padding-left: 2.5rem;
-}
-.text-convert2
-{
-   
+  }
+  .text-convert2 {
     font-size: 8vw;
     padding-bottom: 5%;
-}
-.serve
-{
-    font-family: 'Blinker', sans-serif;
+  }
+  .serve {
+    font-family: "Blinker", sans-serif;
     font-weight: 600;
     font-size: 6vw;
     padding-left: 8.5%;
     color: #34c25e;
-}
-.text-help
-{
+  }
+  .text-help {
     margin-left: 40% !important;
-}
+  }
 }
 @media all and (min-width: 770px) {
-    .text_help 
-    {
-     align-items: left;
-     margin-left: 24%;
-   
-    }
+  .text_help {
+    align-items: left;
+    margin-left: 24%;
+  }
 }
 
-    /* .send-btn{
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 10px;
-        border: 3px solid rgba(255,89,117,1);
-        font-weight: 900;
-       width: 50px;
-    }
-    .send-btn:hover {
-        background-color: #FF5975;
-        color: white;
-      }
-    h2,
-    h3,
-    a {
-        color: #363636;
-    } */
-
-    .btn-outline-danger{
-        font-weight: 550;
-        border: 3px solid rgba(255,89,117,1);
-        border-radius: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .container-lets-talk{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+.btn-outline-danger {
+  font-weight: 550;
+  border: 3px solid rgba(255, 89, 117, 1);
+  border-radius: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.container-lets-talk {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 /* sm */
-    @media only screen and (max-width: 600px) {
-    .lets-talk-img{
-        height: 500px;
-        margin-bottom: 20px;
-
-    }
+@media only screen and (max-width: 600px) {
+  .lets-talk-img {
+    height: 500px;
+    margin-bottom: 20px;
+  }
 }
 /* lg */
 @media only screen and (min-width: 600px) {
-    .lets-talk-img{
-        height: 500px;
-        margin-bottom: 50px;
-
-    }
+  .lets-talk-img {
+    height: 500px;
+    margin-bottom: 50px;
+  }
 }
 /*  */

@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Work.css";
-import WorkSmall from "./WorkSmall";
+import WorkSmall from "../../WorkSmall";
 import Work1 from "./assets/Work1.svg";
 import Work2 from "./assets/Work2.svg";
 import Work3 from "./assets/Work3.svg";

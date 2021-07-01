@@ -1,9 +1,9 @@
 import React from "react";
-import Dashboard from "./Dashboard";
-import Footer from "./Footer";
-import Testimony from "./Testimony";
-import CardHeading from "./CardHeading";
-import CardDashboardGrid from "./CardDashboardGrid";
+import Dashboard from "../Dashboard";
+import Footer from "../Footer";
+import Testimony from "../Components/Testimony/Testimony";
+import CardHeading from "../CardHeading";
+import CardDashboardGrid from "../CardDashboardGrid";
 import Saly from "./assets/Saly.svg";
 import Text from "./assets/Text.svg";
 // import Fourth from "./Fourth.svg";

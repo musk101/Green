@@ -1,6 +1,6 @@
 import React from "react";
 import "./CardDesign.css";
-import CardDesign from "./CardDesign";
+import CardDesign from "./Cards/CardDesign";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import customercentric from "./customercentric.svg";

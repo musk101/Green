@@ -6,13 +6,13 @@ import DesignButton from "./DesignButton.svg";
 import DevelopButton from "./DevelopButton.svg";
 import BusinessButton from "./BusinessButton.svg";
 import Marketplant from "./MarketPlant.svg";
-import CardDesignHeading from "./CardDesignHeading";
-import CardMarketGrid from "./CardMarketGrid";
-import Dreamtext from "./Dreamtext";
+import CardDesignHeading from "../CardDesignHeading";
+import CardMarketGrid from "../CardMarketGrid";
+import Dreamtext from "../Dreamtext";
 import Grid from "@material-ui/core/Grid";
-import DesignPlant from "./DesignPlant";
-import Footer from "./Footer";
-import Dashboard from "./Dashboard";
+import DesignPlant from "../DesignPlant";
+import Footer from "../Footer";
+import Dashboard from "../Dashboard";
 import './Dreamtext.css';
 import red from './red.svg'
 function Page4() {
